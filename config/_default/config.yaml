@@ -1,0 +1,40 @@
+baseURL: https://adscian.be/
+languageCode: en-us
+title: ADSCIAN
+theme: andromeda-light-master
+description: "ADSCIAN supports the design of scientifically-solid responses to water, environment, and climate challenges"
+enableGitInfo: true
+paginate: '6'
+summaryLength: '10'
+googleAnalytics: ''
+disqusShortname: ''
+module:
+  hugoVersion:
+    extended: true
+    min: 0.83.1
+outputs:
+  home:
+    - HTML
+    - RSS
+    - WebAppManifest
+imaging:
+  quality: 100
+caches:
+  images:
+    dir: ':resourceDir/_gen'
+    maxAge: 720h
+  assets:
+    dir: ':resourceDir/_gen'
+    maxAge: 720h
+mediaTypes:
+  application/manifest+json:
+    suffixes:
+      - webmanifest
+  text/netlify:
+    delimiter: ''
+    suffixes:
+      - ''
+outputFormats:
+  WebAppManifest:
+    mediaType: application/manifest+json
+    rel: manifest

@@ -1,0 +1,54 @@
+{{define "main"}}
+
+<!-- Index head -->
+{{with .Params.index_head}}
+<section class="container">
+  <div class="index_head" style="
+                  height: 90vh; 
+                  min-height: 500px; 
+                  width: 100vw; 
+                  background: url({{.image_src}}) no-repeat center top; 
+                  background-size: cover; 
+                  position: relative;
+                  margin-left: -50vw;
+                  left: 50%;">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center">
+        
+        <div class="col-6 text-left mh-100" style="color: #DBF0E9 !important;">
+          <p class="lead text-lg-left display-6 aos-init aos-animate" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="0" data-aos-duration="3000" data-aos-offset="0">
+            {{ .text }}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{end}}
+
+<!-- Index intro -->
+{{ with .Params.index_intro}}
+<section class="container">
+  <div id="slide_1" class="container d-flex px-0 px-lg-4 my-5 align-items-center" style="min-height: 60vh;">
+    <div class="container text-center px-0">
+      <img class="d-block mx-auto mb-4 aos-init aos-animate" 
+            src="/images/image_alone.png" 
+            loading="lazy" 
+            alt="ADSCIAN Logo" 
+            data-path="local-images:/image_alone.png" 
+            style="
+                  filter: brightness(0) saturate(100%);
+                  height: 100px;" 
+            data-aos="flip-left" 
+            data-aos-easing="ease-out-cubic" 
+            data-aos-duration="3000">
+      <h1 class="display-5 fw-light mb-4">{{.title}}</h1>
+      <p class="lead grey-text w-responsive mx-auto mb-1" style="text-align: justify; width: 75%">
+        {{.text | markdownify}}
+      </p>
+    </div>
+   </div>
+</section>
+{{end}}
+
+{{end}}
