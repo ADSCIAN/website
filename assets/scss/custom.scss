@@ -9,6 +9,10 @@ body {
   overflow-x: hidden;
 }
 
+header .navbar-brand img {
+  min-height: 50px;
+}
+
 .page-header {
   background-image: linear-gradient(45deg, #19a552, #00a6bf);
 }
@@ -32,7 +36,7 @@ body {
   margin-right: -50vw;
 }
 
-.page-header .header-frame > div {
+.page-header .header-frame>div {
   transform: skewY(20deg);
   background: rgba(255, 255, 255, 0.50);
 }
@@ -153,7 +157,8 @@ strong {
   color: #06a6a1 !important;
 }
 
-#services h1, #services h1 + p {
+#services h1,
+#services h1+p {
   color: #DBF0E9 !important;
 }
 
@@ -174,7 +179,7 @@ strong {
   transform: skewY(-1deg);
 }
 
-#service-grid > div {
+#service-grid>div {
   transform: skewY(1deg);
   background: rgba(255, 255, 255, 0.90);
 }
@@ -183,7 +188,7 @@ strong {
 // About us cards
 
 .team-card {
-  min-width: 200px;
+  width: 200px;
   padding: 0 15px 40px;
   text-align: center;
   overflow: hidden;
@@ -304,34 +309,40 @@ strong {
 
 //footer
 
-footer h6,footer ul,footer p  {
+footer h6,
+footer ul,
+footer p {
   color: #ffffff !important;
 }
 
-.footer-links a{
+.footer-links a {
   font-weight: 500;
   color: white;
   transition: color 0.3s;
 }
 
 .footer-links a:hover {
-  color: #06a6a1; 
+  color: #06a6a1;
 }
 
-.social-links a{
-  color: white; /* Default color */
-  transition: color 0.3s; /* Smooth transition for color changes */
+.social-links a {
+  color: white;
+  /* Default color */
+  transition: color 0.3s;
+  /* Smooth transition for color changes */
 }
 
 .social-links a:hover {
-  color: #06a6a1; 
+  color: #06a6a1;
 }
 
 /* Styling for the LinkedIn icon */
 .social-links a i {
-  transition: transform 0.3s; /* Smooth transition for transformations */
+  transition: transform 0.3s;
+  /* Smooth transition for transformations */
 }
 
 .social-links a:hover i {
-  transform: scale(1.1); /* Slightly enlarging the icon on hover */
+  transform: scale(1.1);
+  /* Slightly enlarging the icon on hover */
 }

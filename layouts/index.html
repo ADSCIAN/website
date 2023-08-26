@@ -85,9 +85,9 @@
   <div class="container d-flex gap-5 justify-content-center mb-4">
     <div class="grid">
       <div class="row">
-        <div class="col">
-          {{ range .cards }}
-          <div class="team-card" data-aos="{{.effect}}" data-aos-duration="{{.duration}}">
+        {{ range .cards }}
+        <div class="col-12 col-sm-6">
+          <div class="team-card mx-auto my-2" data-aos="{{.effect}}" data-aos-duration="{{.duration}}">
             <div class="team-pic">
               <img src="{{.photo}}">
             </div>

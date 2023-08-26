@@ -1385,6 +1385,9 @@ body {
   font-weight: 200;
   overflow-x: hidden; }
 
+header .navbar-brand img {
+  min-height: 50px; }
+
 .page-header {
   background-image: linear-gradient(45deg, #19a552, #00a6bf); }
 
@@ -1497,7 +1500,8 @@ strong {
 #services a:hover {
   color: #06a6a1 !important; }
 
-#services h1, #services h1 + p {
+#services h1,
+#services h1 + p {
   color: #DBF0E9 !important; }
 
 #services .icon {
@@ -1518,7 +1522,7 @@ strong {
   background: rgba(255, 255, 255, 0.9); }
 
 .team-card {
-  min-width: 200px;
+  width: 200px;
   padding: 0 15px 40px;
   text-align: center;
   overflow: hidden;
@@ -1624,7 +1628,9 @@ strong {
 .team-card .team-social li a:hover {
   color: #06a6a1; }
 
-footer h6, footer ul, footer p {
+footer h6,
+footer ul,
+footer p {
   color: #ffffff !important; }
 
 .footer-links a {

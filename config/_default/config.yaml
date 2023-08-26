@@ -38,11 +38,3 @@ outputFormats:
   WebAppManifest:
     mediaType: application/manifest+json
     rel: manifest
-
-markup:
-  goldmark:
-    renderer:
-      unsafe: true
-  highlight:
-    lineNos: true
-enableEmoji: true
