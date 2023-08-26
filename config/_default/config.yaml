@@ -1,4 +1,4 @@
-baseURL: https://adscian.be/
+baseURL: https://www.adscian.be/
 languageCode: en-us
 title: ADSCIAN
 theme: andromeda-light-master
@@ -38,3 +38,11 @@ outputFormats:
   WebAppManifest:
     mediaType: application/manifest+json
     rel: manifest
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    lineNos: true
+enableEmoji: true

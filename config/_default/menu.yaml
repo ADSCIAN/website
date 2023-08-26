@@ -1,26 +1,23 @@
 main:
     -   identifier: home
         name: Home
-        url: 
+        url: ""
         weight: 100
     -   identifier: services
         name: Services
-        url: 
+        url: '#services'
         weight: 200
     -   identifier: about
         name: About
-        url: /about
+        url: '#about'
         weight: 300
-    -   identifier: blog
-        name: Blogs
-        url: /blog
+    -   identifier: contact
+        name: Contact
+        url: '#contact'
         weight: 400
+
 footer: 
-    -   identifier: privacy
-        name: Privacy policy
-        url: /privacy-policy
+    -   identifier: legal
+        name: Legal Information
+        url: /legal
         weight: 100
-    -   identifier: terms
-        name: Terms & conditions
-        url: /terms-and-conditions
-        weight: 200

@@ -443,7 +443,7 @@ a.text-primary:hover {
   background-color: #06a6a1 !important; }
 
 .bg-light {
-  background-color: #FAFAFA !important; }
+  background-color: #DBF0E9 !important; }
 
 .border-primary {
   border-color: #06a6a1 !important; }
@@ -1376,7 +1376,279 @@ footer.footer {
   color: #06a6a1;
   font-weight: 500; }
 
+html {
+  scroll-behavior: smooth; }
+
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #252525;
+  font-weight: 200;
+  overflow-x: hidden; }
+
+.page-header {
+  background-image: linear-gradient(45deg, #19a552, #00a6bf); }
+
+.page-header .block {
+  padding: 60px 0px; }
+
+.page-header .header-frame p {
+  color: #324A51; }
+
+.page-header .header-frame {
+  background: rgba(255, 255, 255, 0.1);
+  transform: skewY(-20deg);
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw; }
+
+.page-header .header-frame > div {
+  transform: skewY(20deg);
+  background: rgba(255, 255, 255, 0.5); }
+
+a:not(footer a) {
+  font-weight: 500;
+  color: #4c707b; }
+
+a:not(footer a):hover {
+  color: #06a6a1 !important; }
+
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300; }
+
+.display-1 {
+  font-size: calc(1.625rem + 4.5vw);
+  font-weight: 300;
+  line-height: 1.2; }
+
+@media (min-width: 1200px) {
+  .display-1 {
+    font-size: 5rem; } }
+
+.display-2 {
+  font-size: calc(1.575rem + 3.9vw);
+  font-weight: 300;
+  line-height: 1.2; }
+
+@media (min-width: 1200px) {
+  .display-2 {
+    font-size: 4.5rem; } }
+
+.display-3 {
+  font-size: calc(1.525rem + 3.3vw);
+  font-weight: 300;
+  line-height: 1.2; }
+
+@media (min-width: 1200px) {
+  .display-3 {
+    font-size: 4rem; } }
+
+.display-4 {
+  font-size: calc(1.475rem + 2.7vw);
+  font-weight: 300;
+  line-height: 1.2; }
+
+@media (min-width: 1200px) {
+  .display-4 {
+    font-size: 3.5rem; } }
+
 .display-5 {
   font-size: calc(1.425rem + 2.1vw);
   font-weight: 300;
   line-height: 1.2; }
+
+@media (min-width: 1200px) {
+  .display-5 {
+    font-size: 3rem; } }
+
+.display-6 {
+  font-size: calc(1.375rem + 1.5vw);
+  font-weight: 300;
+  line-height: 1.2; }
+
+@media (min-width: 1200px) {
+  .display-6 {
+    font-size: 2.5rem; } }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+  font-variant: small-caps; }
+
+#services {
+  background: linear-gradient(45deg, #19a552, #00a6bf);
+  position: relative;
+  margin-left: -50vw;
+  left: 50%;
+  width: 100vw;
+  min-height: 60vh; }
+
+#services a {
+  font-weight: 500;
+  color: #4c707b; }
+
+#services a:hover {
+  color: #06a6a1 !important; }
+
+#services h1, #services h1 + p {
+  color: #DBF0E9 !important; }
+
+#services .icon {
+  width: 90px; }
+
+#services h5 {
+  color: #324A51; }
+
+#service-grid p {
+  color: #324A51; }
+
+#service-grid {
+  background: rgba(255, 255, 255, 0.1);
+  transform: skewY(-1deg); }
+
+#service-grid > div {
+  transform: skewY(1deg);
+  background: rgba(255, 255, 255, 0.9); }
+
+.team-card {
+  min-width: 200px;
+  padding: 0 15px 40px;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  border-bottom: 1px solid #324a51; }
+
+.team-card:hover {
+  border-bottom: 1px solid #2f2f2f; }
+
+.team-card .team-pic {
+  display: inline-block;
+  width: 150px;
+  /* changed */
+  height: 150px;
+  margin-bottom: 20px;
+  z-index: 1;
+  position: relative; }
+
+.team-card .team-pic:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: #324a51;
+  position: absolute;
+  bottom: 135%;
+  right: 0;
+  left: 0;
+  opacity: 1;
+  transform: scale(3);
+  transition: all 0.3s linear 0s; }
+
+/*        .team-card:hover .team-pic:before {
+  height: 100%;
+  background: #2f2f2f;
+}*/
+/*        .team-card .team-pic:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: #ffffff00;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  transition: all 0.3s linear 0s;
+}
+.team-card:hover .team-pic:after {
+  background: #145889;
+}*/
+.team-card .team-pic img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  /*transform: scale(1);*/
+  /*transition: all 0.9s ease 0s;*/
+  /*box-shadow: 0 0 0 14px #f7f5ec;*/
+  transform: scale(0.7);
+  position: relative;
+  z-index: 2; }
+
+/*        .team-card:hover .team-pic img {
+  box-shadow: 0 0 0 14px #f7f5ec;
+  transform: scale(0.7);
+}*/
+.team-card .team-content {
+  margin-bottom: 30px; }
+
+.team-card .title {
+  font-size: medium;
+  font-weight: 500;
+  color: #324a51;
+  letter-spacing: 0.05px;
+  /*text-transform: capitalize;*/
+  margin-bottom: 5px; }
+
+.team-card .post {
+  display: block;
+  font-size: 15px;
+  color: #4e5052;
+  text-transform: capitalize; }
+
+.team-card .team-social {
+  width: 100%;
+  padding-left: 10px;
+  margin: 0;
+  position: absolute;
+  /*bottom: -100px;*/
+  left: 0;
+  /*transition: all 0.5s ease 0s;*/ }
+
+.team-card .team-social li {
+  display: inline-block; }
+
+.team-card .team-social li a {
+  display: block;
+  padding: 6px;
+  font-size: 30px;
+  color: #324a51;
+  text-decoration: none; }
+
+.team-card .team-social li a:hover {
+  color: #06a6a1; }
+
+footer h6, footer ul, footer p {
+  color: #ffffff !important; }
+
+.footer-links a {
+  font-weight: 500;
+  color: white;
+  transition: color 0.3s; }
+
+.footer-links a:hover {
+  color: #06a6a1; }
+
+.social-links a {
+  color: white;
+  /* Default color */
+  transition: color 0.3s;
+  /* Smooth transition for color changes */ }
+
+.social-links a:hover {
+  color: #06a6a1; }
+
+/* Styling for the LinkedIn icon */
+.social-links a i {
+  transition: transform 0.3s;
+  /* Smooth transition for transformations */ }
+
+.social-links a:hover i {
+  transform: scale(1.1);
+  /* Slightly enlarging the icon on hover */ }

@@ -1,0 +1,62 @@
+<footer class="container-fluid text-center text-lg-start text-muted"
+    style="background-color: #324a51; position: relative; margin-left: -50vw; left: 50%; width: 100vw;">
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section id="contact" class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom text-light">
+        <div class="container text-center text-md-start">
+            <!-- Grid row -->
+            <div class="row mt-3">
+                <!-- Grid column -->
+                <div class="col-sm mx-auto mb-4 text-left">
+                    <!-- Content -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                        © {{ now.Format "2006" }} Copyright ADSCIAN SRL
+                    </h6>
+                    <p>
+                        {{site.Params.footer_info.fullname | markdownify}}
+                    </p>
+                    <ul class="footer-links list-unstyled">
+                        {{range site.Menus.footer}}
+                        <li><a href="{{.URL | relLangURL}}">{{.Name}}</a></li>
+                        {{end}}
+                    </ul>
+
+                </div>
+                <!-- Grid column -->
+                <div class="col-sm mx-auto mb-md-0 mb-4">
+                    <img class="d-block mx-auto mb-2" src="/images/image_alone.png" loading="lazy" alt="ADSCIAN Logo"
+                        data-path="local-images:/image_alone.png" style="
+                  filter: brightness(100) saturate(100%);
+                  height: 50px;">
+                  {{ with site.Params.social}}
+                  <ul class="social-links list-inline mt-5">
+                    {{ range .}}
+                    <li class="list-inline-item"><a href="{{.link}}" title="{{.title}}">
+                      <i class="{{.icon}}"></i>
+                    </a></li>
+                    {{end}}
+                  </ul>
+                  {{end}}
+                </div>
+                <!-- Grid column -->
+                <div class="col-sm mx-auto mb-md-0 mb-4 text-left">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                        Contact
+                    </h6>
+                    <p class="text-start"><i class="las la-home px-1"></i>{{site.Params.footer_info.address}}</p>
+                    <p class="footer-links text-start">
+                        <i class="las la-envelope px-1"></i>
+                        <a href="mailto:{{site.Params.footer_info.email}}">{{site.Params.footer_info.email}}</a>
+                    </p>
+                    <p class="text-light text-start"><i class="las la-phone-alt px-1"></i>{{site.Params.footer_info.phone}}
+                    </p>
+                </div>
+                <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+        </div>
+    </section>
+    <!-- Section: Links  -->
+</footer>

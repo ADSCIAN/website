@@ -1,0 +1,16 @@
+baseURL: https://adscian.be/
+languageCode: en-us
+title: ADSCIAN
+theme: Eclectic
+menu:
+    main:
+        -   identifier: home
+            name: Home
+            url: 
+        -   identifier: services
+            name: Services
+            url: #home
+        -   identifier: about
+            name: About
+            url: #about
+        
