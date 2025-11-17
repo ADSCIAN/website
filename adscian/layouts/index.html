@@ -2,12 +2,16 @@
 
 <!-- Index head -->
 {{with .Params.index_head}}
+{{- $heroRaw := .image_src -}}
+{{- $heroTrim := replaceRE "^/+" "" $heroRaw -}}
+{{- $heroRoot := printf "/%s" $heroTrim -}}
+{{- $heroURL := $heroRoot | relURL -}}
 <section class="container">
   <div class="index_head" style="
                   height: 90vh;
                   min-height: 500px;
                   width: 100vw;
-                  background: url('{{ .image_src | relURL }}') no-repeat center top;
+                  background: url('{{$heroURL}}') no-repeat center top;
                   background-size: cover;
                   position: relative;
                   margin-left: -50vw;
@@ -32,12 +36,16 @@
 
 <!-- Index intro -->
 {{ with .Params.index_intro}}
+{{- $logoRaw := .logo_src -}}
+{{- $logoTrim := replaceRE "^/+" "" $logoRaw -}}
+{{- $logoRoot := printf "/%s" $logoTrim -}}
+{{- $logoURL := $logoRoot | relURL -}}
 <section class="container">
   <div id="slide_1"
        class="container d-flex px-0 px-lg-4 my-5 align-items-center"
        style="min-height: 60vh;">
     <div class="container text-center px-0">
-      <img class="d-block mx-auto mb-4" src="{{ .logo_src | relURL }}" loading="lazy"
+      <img class="d-block mx-auto mb-4" src="{{$logoURL}}" loading="lazy"
            alt="ADSCIAN Logo"
            style="
                   filter: brightness(0) saturate(100%);
@@ -66,9 +74,13 @@
       <div id="service-grid" class="container-sm px-1">
         <div class="row mx-0 mx-sm-3 my-3 py-5 px-sm-5 px-sm-0">
           {{ range .content }}
+          {{- $iconRaw := .icon -}}
+          {{- $iconTrim := replaceRE "^/+" "" $iconRaw -}}
+          {{- $iconRoot := printf "/%s" $iconTrim -}}
+          {{- $iconURL := $iconRoot | relURL -}}
           <div class="col-md-6">
             <div class="service-item">
-              <img src="{{ .icon | relURL }}" alt="{{ .service }} icon" class="img-fluid"
+              <img src="{{$iconURL}}" alt="{{ .service }} icon" class="img-fluid"
                    width='64px'>
               <h3>{{ .service }}</h3>
               <p>{{ .description | markdownify }}</p>
@@ -97,11 +109,15 @@
     <div class="grid">
       <div class="row">
         {{ range .cards }}
+        {{- $photoRaw := .photo -}}
+        {{- $photoTrim := replaceRE "^/+" "" $photoRaw -}}
+        {{- $photoRoot := printf "/%s" $photoTrim -}}
+        {{- $photoURL := $photoRoot | relURL -}}
         <div class="col-12 col-sm-6">
           <div class="team-card mx-auto my-2" data-aos="{{.effect}}"
                data-aos-duration="{{.duration}}">
             <div class="team-pic">
-              <img src="{{ .photo | relURL }}">
+              <img src="{{$photoURL}}">
             </div>
             <div class="team-content">
               <h3 class="title">{{.name}}</h3>
