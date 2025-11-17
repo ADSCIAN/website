@@ -1,7 +1,7 @@
 ---
 index_head:
     text: "We support the design of scientifically-solid responses to water, environment, and climate challenges"
-    image_src: "images/SRE_Landsat_h1600.jpg"
+    image_src: "/images/SRE_Landsat_h1600.jpg"
 
 index_intro:
     title: "Your partner in science"
