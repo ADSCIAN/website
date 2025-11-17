@@ -1,7 +1,7 @@
 ---
 index_head:
   text: "Wij ondersteunen het ontwerp van wetenschappelijk solide antwoorden op uitdagingen met betrekking tot water, milieu en klimaat."
-  image_src: /images/SRE_Landsat_h1600.jpg
+  image_src: "/images/SRE_Landsat_h1600.jpg"
 
 index_intro:
   title: "Uw partner in wetenschap"
@@ -36,7 +36,7 @@ about_us:
         gs: https://scholar.google.com/citations?user=IcRj1IIAAAAJ&hl=nl
         in: https://www.linkedin.com/in/alicealonso/
         rg: https://www.researchgate.net/profile/Alice-Alonso
-        photo: /images/aalonso.jpg
+        photo: "/images/aalonso.jpg"
         effect: "fade-up-right"
         duration: 2000
     -   name: Damien Delforge, PhD
@@ -45,7 +45,7 @@ about_us:
         gs: https://scholar.google.com/citations?user=PFu9yr0AAAAJ&hl=nl
         in: https://www.linkedin.com/in/damien-delforge-10250a59
         rg: https://www.researchgate.net/profile/Damien-Delforge
-        photo: /images/ddelforge.jpg
+        photo: "/images/ddelforge.jpg"
         effect: "fade-up-left"
         duration: 2200
 

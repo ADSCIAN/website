@@ -1,7 +1,7 @@
 ---
 index_head:
   text: "Nous soutenons la conception de réponses scientifiquement solides aux défis liés à l'eau, à l'environnement et au climat."
-  image_src: /images/SRE_Landsat_h1600.jpg
+  image_src: "/images/SRE_Landsat_h1600.jpg"
 
 index_intro:
   title: "Votre partenaire en science"
@@ -16,7 +16,7 @@ index_services:
       icon: "/images/svg-icons/linreg-icon.svg"
       description: "Maximisez le potentiel de vos données ou tirez le meilleur parti des ensembles de données disponibles. Grâce à la science des données et à la modélisation, nous renforçons la recherche & développement en offrant une base solide de connaissances pour vos projets et stratégies."
     - service: "Synthèse"
-      icon: "/images/svg-icons/synthesis-icon.svg"
+      icon: "images/svg-icons/synthesis-icon.svg"
       description: "Vous avez une question spécifique ? Nous explorons la littérature scientifique, interprétons et synthétisons pour fournir des conclusions innovantes et exploitables adaptées à vos besoins."
     - service: "Formation"
       icon: "/images/svg-icons/training-icon.svg"
@@ -36,7 +36,7 @@ about_us:
       gs: https://scholar.google.com/citations?user=IcRj1IIAAAAJ&hl=fr
       in: https://www.linkedin.com/in/alicealonso/
       rg: https://www.researchgate.net/profile/Alice-Alonso
-      photo: /images/aalonso.jpg
+      photo: "/images/aalonso.jpg"
       effect: "fade-up-right"
       duration: 2000
     - name: Damien Delforge, PhD
@@ -45,7 +45,7 @@ about_us:
       gs: https://scholar.google.com/citations?user=PFu9yr0AAAAJ&hl=fr
       in: https://www.linkedin.com/in/damien-delforge-10250a59
       rg: https://www.researchgate.net/profile/Damien-Delforge
-      photo: /images/ddelforge.jpg
+      photo: "/images/ddelforge.jpg"
       effect: "fade-up-left"
       duration: 2200
 
