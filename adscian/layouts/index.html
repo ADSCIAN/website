@@ -5,7 +5,7 @@
 {{- $heroRaw := .image_src -}}
 {{- $heroTrim := replaceRE "^/+" "" $heroRaw -}}
 {{- $heroRoot := printf "/%s" $heroTrim -}}
-{{- $heroURL := $heroRoot | relURL -}}
+{{- $heroURL := $heroRoot | absURL -}}
 <section class="container">
   <div class="index_head" style="
                   height: 90vh;
@@ -39,7 +39,7 @@
 {{- $logoRaw := .logo_src -}}
 {{- $logoTrim := replaceRE "^/+" "" $logoRaw -}}
 {{- $logoRoot := printf "/%s" $logoTrim -}}
-{{- $logoURL := $logoRoot | relURL -}}
+{{- $logoURL := $logoRoot | absURL -}}
 <section class="container">
   <div id="slide_1"
        class="container d-flex px-0 px-lg-4 my-5 align-items-center"
@@ -77,7 +77,7 @@
           {{- $iconRaw := .icon -}}
           {{- $iconTrim := replaceRE "^/+" "" $iconRaw -}}
           {{- $iconRoot := printf "/%s" $iconTrim -}}
-          {{- $iconURL := $iconRoot | relURL -}}
+          {{- $iconURL := $iconRoot | absURL -}}
           <div class="col-md-6">
             <div class="service-item">
               <img src="{{$iconURL}}" alt="{{ .service }} icon" class="img-fluid"
@@ -112,7 +112,7 @@
         {{- $photoRaw := .photo -}}
         {{- $photoTrim := replaceRE "^/+" "" $photoRaw -}}
         {{- $photoRoot := printf "/%s" $photoTrim -}}
-        {{- $photoURL := $photoRoot | relURL -}}
+        {{- $photoURL := $photoRoot | absURL -}}
         <div class="col-12 col-sm-6">
           <div class="team-card mx-auto my-2" data-aos="{{.effect}}"
                data-aos-duration="{{.duration}}">
