@@ -1,0 +1,36 @@
+{
+  "file": "exampleSite/content/english/career/job-post-1.md",
+  "name": "career",
+  "fileType": "md",
+  "fmType": "yaml",
+  "template": [
+    {
+      "name": "date",
+      "label": "Date",
+      "type": "string",
+      "value": "",
+      "defaultValue": ""
+    },
+    {
+      "name": "draft",
+      "label": "Draft",
+      "type": "boolean",
+      "value": false,
+      "defaultValue": ""
+    },
+    {
+      "name": "title",
+      "label": "Title",
+      "type": "string",
+      "value": "",
+      "defaultValue": ""
+    },
+    {
+      "name": "job_nature",
+      "label": "Job Nature",
+      "type": "string",
+      "value": "",
+      "defaultValue": ""
+    }
+  ]
+}

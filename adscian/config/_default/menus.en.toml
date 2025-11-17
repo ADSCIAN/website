@@ -1,0 +1,32 @@
+############# English navigation ##############
+
+# main menu
+[[main]]
+identifier = "home"
+name = "Home"
+url = ""
+weight = 100
+
+[[main]]
+identifier = "sevices"
+name = "Services"
+url = "#services"
+weight = 200
+
+[[main]]
+identifier = "about"
+name = "About"
+url = "#about"
+weight = 300
+
+[[main]]
+identifier = "contact"
+name = "Contact"
+url = "#contact"
+weight = 400
+
+[[footer]]
+identifier = "legal"
+name = "Legal Information"
+url = "/legal"
+weight = 100

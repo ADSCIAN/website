@@ -1,0 +1,57 @@
+{
+  "file": "exampleSite/content/english/case-studies/case-1.md",
+  "name": "case-studies",
+  "fileType": "md",
+  "fmType": "yaml",
+  "template": [
+    {
+      "name": "date",
+      "label": "Date",
+      "type": "string",
+      "value": "",
+      "defaultValue": ""
+    },
+    {
+      "name": "draft",
+      "label": "Draft",
+      "type": "boolean",
+      "value": false,
+      "defaultValue": ""
+    },
+    {
+      "name": "title",
+      "label": "Title",
+      "type": "string",
+      "value": "",
+      "defaultValue": ""
+    },
+    {
+      "name": "logo",
+      "label": "Logo",
+      "type": "media",
+      "value": "",
+      "defaultValue": ""
+    },
+    {
+      "name": "year",
+      "label": "Year",
+      "type": "string",
+      "value": "",
+      "defaultValue": ""
+    },
+    {
+      "name": "location",
+      "label": "Location",
+      "type": "string",
+      "value": "",
+      "defaultValue": ""
+    },
+    {
+      "name": "company_size",
+      "label": "Company Size",
+      "type": "string",
+      "value": "",
+      "defaultValue": ""
+    }
+  ]
+}

@@ -1,7 +1,0 @@
-markup:
-  goldmark:
-    renderer:
-      unsafe: true
-  highlight:
-    lineNos: true
-enableEmoji: true
