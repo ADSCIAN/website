@@ -40,7 +40,7 @@ email = ["info@andromeda.io", "smith@anderson.io", "john@anderson.io"]
 # Preloader
 # module: https://github.com/gethugothemes/hugo-modules/tree/master/components/preloader
 [preloader]
-enable = false
+enable = true
 preloader = "images/favicon.png" # use jpg, png, svg or gif format.
 
 # Navigation button
