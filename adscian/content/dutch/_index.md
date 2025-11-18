@@ -1,28 +1,28 @@
 ---
 index_head:
   text: "Wij ondersteunen het ontwerp van wetenschappelijk solide antwoorden op uitdagingen met betrekking tot water, milieu en klimaat."
-  image_src: "images/index/SRE_Landsat_h1600.jpg"
+  image_src: "images/SRE_Landsat_h1600.jpg"
 
 index_intro:
   title: "Uw partner in wetenschap"
   text: "Wij bieden premium advies- en onderzoeksdiensten op maat om milieu- en klimaatuitdagingen aan te pakken. Als datawetenschappers blinken we uit in het combineren van diverse gegevens om water- en milieusystemen te analyseren en modelleren, en leveren we cruciale inzichten voor effectief beheer. Ons wereldwijd academisch netwerk stelt ons in staat om de kloof tussen de academische wereld en diverse sectoren te overbruggen, zodat baanbrekende wetenschappelijke kennis snel kan worden toegepast. Wij bedienen de publieke sector, overheidsinstellingen, particuliere ondernemingen, NGO's en bieden gespecialiseerde ondersteuning aan academici."
-  logo_src: "images/index/logo_notext.png"
+  logo_src: "images/logo_notext.png"
 
 index_services:
   title: "Onze Diensten"
   subtitle: "Verdiep u in inzichten over watervoorraden, klimaatdynamiek en gerelateerde risico's om goed geïnformeerd te handelen."
   content:
     -   service: "Data & Onderzoek"
-        icon: "images/index/svg-icons/linreg-icon.svg"
+        icon: "images/svg-icons/linreg-icon.svg"
         description: "Maximaliseer het potentieel van uw gegevens of benut het beste uit beschikbare datasets. Door datascience en modellering versterken we onderzoek & ontwikkeling, en bieden we een solide kennisbasis voor uw projecten en strategieën."
     -   service: "Synthese"
-        icon: "images/index/svg-icons/synthesis-icon.svg"
+        icon: "images/svg-icons/synthesis-icon.svg"
         description: "Heeft u een specifieke vraag? Wij duiken in de wetenschappelijke literatuur, interpreteren en vatten samen om bruikbare en geavanceerde conclusies te leveren, specifiek voor u op maat gemaakt."
     -   service: "Training"
-        icon: "images/index/svg-icons/training-icon.svg"
+        icon: "images/svg-icons/training-icon.svg"
         description: "Versterk uw team met op maat gemaakte workshops of specifieke trainingen over data-analyse, GIS en meer."
     -   service: "Voorstel Schrijven"
-        icon: "images/index/svg-icons/coordination-icon.svg"
+        icon: "images/svg-icons/coordination-icon.svg"
         description: "Wij ondersteunen u bij het opstellen van voorstellen, wetenschappelijke teksten en redactiewerk in samenwerking met ons Amerikaanse zusterbedrijf [Bagamian Scientific Consulting](https://www.bagamiansci.com)."
 
 about_us:
@@ -36,7 +36,7 @@ about_us:
         gs: https://scholar.google.com/citations?user=IcRj1IIAAAAJ&hl=nl
         in: https://www.linkedin.com/in/alicealonso/
         rg: https://www.researchgate.net/profile/Alice-Alonso
-        photo: "images/index/aalonso.jpg"
+        photo: "images/aalonso.jpg"
         effect: "fade-up-right"
         duration: 2000
     -   name: Damien Delforge, PhD
@@ -45,7 +45,7 @@ about_us:
         gs: https://scholar.google.com/citations?user=PFu9yr0AAAAJ&hl=nl
         in: https://www.linkedin.com/in/damien-delforge-10250a59
         rg: https://www.researchgate.net/profile/Damien-Delforge
-        photo: "images/index/ddelforge.jpg"
+        photo: "images/ddelforge.jpg"
         effect: "fade-up-left"
         duration: 2200
 

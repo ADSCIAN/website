@@ -1,28 +1,28 @@
 ---
 index_head:
     text: "We support the design of scientifically-solid responses to water, environment, and climate challenges"
-    image_src: "images/index/SRE_Landsat_h1600.jpg"
+    image_src: "images/SRE_Landsat_h1600.jpg"
 
 index_intro:
     title: "Your partner in science"
     text: "We offer premium consulting and research services tailored to address environmental and climate challenges. As data scientists, we excel in merging diverse data to analyze and model water and environmental systems, delivering pivotal insights for effective management. Our global network of academic professionals enables us to bridge the gap between academia and various sectors, ensuring the swift application of cutting-edge scientific knowledge. We cater to public sectors, governmental institutions, private enterprises, NGOs, and provide specialized support for academics."
-    logo_src: "images/index/logo_notext.png"
+    logo_src: "images/logo_notext.png"
 
 index_services:
     title: "Our Services"
     subtitle: "Dive deep into insights on water resources, climate dynamics, and related risks to make informed actions."
     content:
         -   service: "Data & Research"
-            icon: "images/index/svg-icons/linreg-icon.svg"
+            icon: "images/svg-icons/linreg-icon.svg"
             description: "Maximize the potential of your data or leverage the best from available datasets. Through data science and modeling, we bolster research & development, providing a robust knowledge foundation for your projects and strategies."
         -   service: "Synthesis"
-            icon: "images/index/svg-icons/synthesis-icon.svg"
+            icon: "images/svg-icons/synthesis-icon.svg"
             description: "Have a specific question? We delve into the scientific literature, interpreting and summarizing to deliver actionable, cutting-edge conclusions tailored just for you."
         -   service: "Training"
-            icon: "images/index/svg-icons/training-icon.svg"
+            icon: "images/svg-icons/training-icon.svg"
             description: "Empower your team with custom workshops or dedicated training on data analysis, GIS, and more."
         -   service: "Proposal Writing"
-            icon: "images/index/svg-icons/coordination-icon.svg"
+            icon: "images/svg-icons/coordination-icon.svg"
             description: "We assist you with proposal creation, scientific writing, and editing in partnership with our US-based sister company [Bagamian Scientific Consulting](https://www.bagamiansci.com)."
 
 about_us:
@@ -36,7 +36,7 @@ about_us:
             gs: https://scholar.google.com/citations?user=IcRj1IIAAAAJ&hl=en
             in: https://www.linkedin.com/in/alicealonso/
             rg: https://www.researchgate.net/profile/Alice-Alonso
-            photo: "images/index/aalonso.jpg"
+            photo: "images/aalonso.jpg"
             effect: "fade-up-right"
             duration: 2000
         -   name: Damien Delforge, PhD
@@ -45,7 +45,7 @@ about_us:
             gs: https://scholar.google.com/citations?user=PFu9yr0AAAAJ&hl=en
             in: https://www.linkedin.com/in/damien-delforge-10250a59
             rg: https://www.researchgate.net/profile/Damien-Delforge
-            photo: "images/index/ddelforge.jpg"
+            photo: "images/ddelforge.jpg"
             effect: "fade-up-left"
             duration: 2200
             
