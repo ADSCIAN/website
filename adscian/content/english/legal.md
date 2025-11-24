@@ -20,7 +20,7 @@ Hereafter, ADSCIAN.
 
 ### Content and Intellectual Property:
 
-* The ADSCIAN website is a static website generated using [HUGO](https://gohugo.io/) and the [Andromeda Light](https://github.com/gethugothemes/andromeda-light-hugo) template;
+* The ADSCIAN website is a static website generated using [HUGO](https://gohugo.io/) and the [Andromeda](https://docs.gethugothemes.com/andromeda/) template;
 * The satellite image on the front page is provided by the [Landsat Image Gallery](https://landsat.visibleearth.nasa.gov/): “Landsat imagery courtesy of NASA Goddard Space Flight Center and U.S. Geological Survey”;
 * The icons that are not hosted are provided by [Line Awesome](https://icons8.com/line-awesome) under their terms of use;
 * All other content, including texts, graphics, logos, and images on this website, is the property of ADSCIAN and is protected by copyright laws. Unauthorized use, reproduction, or distribution of the content is strictly prohibited.
@@ -36,4 +36,4 @@ Our website is static and does not use any cookies or third-party services. Ther
 
 ### Contact
 
-If you have any questions or concerns regarding these terms or any content on our website, please contact us at contact@adscian.be.
+If you have any questions or concerns regarding these terms or any content on our website, please contact us at [contact@adscian.com](mailto:contact@adscian.com).

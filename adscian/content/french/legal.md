@@ -22,7 +22,7 @@ Ci-après nommé ADSCIAN.
 
 * Le site web d'ADSCIAN est un site statique généré en
   utilisant [HUGO](https://gohugo.io/) et le
-  template [Andromeda Light](https://github.com/gethugothemes/andromeda-light-hugo);
+  template [Andromeda](https://docs.gethugothemes.com/andromeda/);
 * L'image satellite de la page d'accueil est issue de
   la [Landsat Image Gallery](https://landsat.visibleearth.nasa.gov/) : "Images
   Landsat gracieusement fournies par NASA Goddard Space Flight Center et U.S.
@@ -55,4 +55,5 @@ visiteurs, sauf s'ils choisissent de nous contacter directement.
 ### Contact
 
 Si vous avez des questions ou des préoccupations concernant ces termes ou tout
-contenu sur
+contenu sur notre site internet, veuillez nous contacter à l'adresse
+[contact@adscian.com](mailto:contact@adscian.com).

@@ -22,7 +22,7 @@ Hierna genoemd, ADSCIAN.
 
 * De ADSCIAN-website is een statische website die is gegenereerd met behulp
   van [HUGO](https://gohugo.io/) en
-  de [Andromeda Light](https://github.com/gethugothemes/andromeda-light-hugo)
+  de [Andromeda](https://docs.gethugothemes.com/andromeda/)
   template;
 * De satellietafbeelding op de voorpagina is beschikbaar gesteld door
   de [Landsat Image Gallery](https://landsat.visibleearth.nasa.gov/): "
@@ -57,4 +57,4 @@ bezoekers, tenzij zij ervoor kiezen om rechtstreeks contact met ons op te nemen.
 ### Contact
 
 Als u vragen of opmerkingen heeft over deze voorwaarden of over enige inhoud op
-onze website, neem dan contact met ons op via contact@adscian.be.
+onze website, neem dan contact met ons op via [contact@adscian.com](mailto:contact@adscian.com).
