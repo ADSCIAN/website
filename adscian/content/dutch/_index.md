@@ -6,7 +6,7 @@ index_head:
 index_intro:
   title: "Uw partner in wetenschap"
   text: "Wij bieden premium advies- en onderzoeksdiensten op maat om milieu- en klimaatuitdagingen aan te pakken. Als datawetenschappers blinken we uit in het combineren van diverse gegevens om water- en milieusystemen te analyseren en modelleren, en leveren we cruciale inzichten voor effectief beheer. Ons wereldwijd academisch netwerk stelt ons in staat om de kloof tussen de academische wereld en diverse sectoren te overbruggen, zodat baanbrekende wetenschappelijke kennis snel kan worden toegepast. Wij bedienen de publieke sector, overheidsinstellingen, particuliere ondernemingen, NGO's en bieden gespecialiseerde ondersteuning aan academici."
-  logo_src: "images/logo_notext.png"
+  logo_src: "images/logo_notext_dg.png"
 
 index_services:
   title: "Onze Diensten"

@@ -6,7 +6,7 @@ index_head:
 index_intro:
     title: "Your partner in science"
     text: "We offer premium consulting and research services tailored to address environmental and climate challenges. As data scientists, we excel in merging diverse data to analyze and model water and environmental systems, delivering pivotal insights for effective management. Our global network of academic professionals enables us to bridge the gap between academia and various sectors, ensuring the swift application of cutting-edge scientific knowledge. We cater to public sectors, governmental institutions, private enterprises, NGOs, and provide specialized support for academics."
-    logo_src: "images/logo_notext.png"
+    logo_src: "images/logo_notext_dg.png"
 
 index_services:
     title: "Our Services"

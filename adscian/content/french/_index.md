@@ -6,7 +6,7 @@ index_head:
 index_intro:
   title: "Votre partenaire en science"
   text: "Nous offrons des services de conseil et de recherche haut de gamme adaptés aux défis environnementaux et climatiques. En tant que data scientists, nous excellons dans l'intégration de données diverses pour analyser et modéliser les systèmes hydriques et environnementaux, fournissant des informations cruciales pour une gestion efficace. Notre réseau académique mondial nous permet de combler le fossé entre le monde universitaire et divers secteurs, garantissant une application rapide des connaissances scientifiques les plus avancées. Nous servons les secteurs publics, les institutions gouvernementales, les entreprises privées, les ONG et fournissons un soutien spécialisé aux universitaires."
-  logo_src: "images/logo_notext.png"
+  logo_src: "images/logo_notext_dg.png"
 
 index_services:
   title: "Nos Services"
