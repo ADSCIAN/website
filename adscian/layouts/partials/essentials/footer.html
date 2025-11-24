@@ -18,7 +18,7 @@
           </p>
           <ul class="footer-links list-unstyled">
             {{range site.Menus.footer}}
-            <li><a href="{{.URL | relLangURL}}">{{.Name}}</a></li>
+            <li><a href="{{.URL | absLangURL}}">{{.Name}}</a></li>
             {{end}}
           </ul>
 
