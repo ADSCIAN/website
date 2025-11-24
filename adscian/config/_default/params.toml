@@ -52,10 +52,18 @@ link = "signup/"
 # seo meta data for OpenGraph / Twitter Card
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
 [metadata]
-keywords = ["Hugo", "GetHugoThemes", "Themefisher"]
-description = "Software and SAAS Landing Hugo Theme"
-author = "Gethugothemes"
-image = "images/og-image.jpg" # this image will be used as fallback if a page has no image of its own
+keywords = ["environmental consulting", "climate change solutions",
+  "water resource management", "data science for environment",
+  "scientific research synthesis", "GIS and data analysis training",
+  "proposal writing for environmental projects", "hydrology consulting",
+  "public sector environmental support", "scientific literature review"
+]
+description = """ADSCIAN offers expert consulting in water, environment, and
+climate challenges. We bridge science and action through data analysis,
+research synthesis, and tailored training for public, private, and academic
+sectors."""
+author = "ADSCIAN"
+image = "images/og-adscian.png" # this image will be used as fallback if a page has no image of its own
 
 # matomo tracking: see https://matomo.org/
 # matomo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/matomo-analytics
