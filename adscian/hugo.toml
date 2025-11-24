@@ -112,7 +112,7 @@ black = "#324a51"
 light = "#DBF0E9"
 
 # font variables
-# base font size for full website,
+# base font size for full website
 font_size = "16px" # default is 16px
 
 # Font Scale Sizes

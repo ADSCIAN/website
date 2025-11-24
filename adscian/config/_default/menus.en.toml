@@ -28,5 +28,5 @@ weight = 400
 [[footer]]
 identifier = "legal"
 name = "Legal Information"
-url = "/legal"
+url = "legal"
 weight = 100
