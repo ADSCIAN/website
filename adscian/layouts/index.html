@@ -4,11 +4,12 @@
 {{with .Params.index_head}}
 
 <section class="container">
+  {{ $image := resources.Get .image_src }}
   <div class="index_head" style="
                   height: 90vh;
                   min-height: 500px;
                   width: 100vw;
-                  background: url('https://www.adscian.be/images/SRE_Landsat_h1600.jpg') no-repeat center top;
+                  background: url('{{ $image.RelPermalink }}') no-repeat center top;
                   background-size: cover;
                   position: relative;
                   margin-left: -50vw;
