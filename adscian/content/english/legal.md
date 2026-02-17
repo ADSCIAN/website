@@ -3,6 +3,10 @@ title: "Legal Information"
 date: 2023-08-19
 draft: false
 icon: "la-gavel"
+bg_image: "images/beninurbaniz_oli2_20250111_lrg_compressed.jpg"
+bg_gradient_start: "rgba(25, 165, 82, 0.5)"
+bg_gradient_end: "rgba(0, 166, 191, 0.5)"
+layout: "legal"
 ---
 
 **Last updated:** 2025-11-17
@@ -21,9 +25,13 @@ Hereafter, ADSCIAN.
 ### Content and Intellectual Property:
 
 * The ADSCIAN website is a static website generated using [HUGO](https://gohugo.io/) and the [Andromeda](https://docs.gethugothemes.com/andromeda/) template;
-* The satellite image on the front page is provided by the [Landsat Image Gallery](https://landsat.visibleearth.nasa.gov/): “Landsat imagery courtesy of NASA Goddard Space Flight Center and U.S. Geological Survey”;
 * The icons that are not hosted are provided by [Line Awesome](https://icons8.com/line-awesome) under their terms of use;
 * All other content, including texts, graphics, logos, and images on this website, is the property of ADSCIAN and is protected by copyright laws. Unauthorized use, reproduction, or distribution of the content is strictly prohibited.
+
+**Images**
+* The images on this website are copyrighted by their respective owners.
+* Front page: The satellite image on the front page is provided by the [Landsat Image Gallery](https://landsat.visibleearth.nasa.gov/): “Landsat imagery courtesy of NASA Goddard Space Flight Center and U.S. Geological Survey”;
+* Legal information: The image on the legal information page is provided by [NASA's Earth Observatory, Image of the Day, Rapid Growth of Benin City](https://science.nasa.gov/earth/human-dimensions/urban-development/rapid-growth-for-benin-city/).
 
 ### Disclaimer
 

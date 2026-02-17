@@ -1,4 +1,12 @@
-<section class="page-header">
+{{ $bg_image := .Params.bg_image | default "images/SRE_Landsat_h1600.jpg" }}
+{{ $bg_image_resource := resources.Get $bg_image }}
+
+{{/* Gradient configuration */}}
+{{ $bg_gradient_angle := .Params.bg_gradient_angle | default site.Params.page_header_bg_gradient.angle | default "45deg" }}
+{{ $bg_gradient_start := .Params.bg_gradient_start | default site.Params.page_header_bg_gradient.start | default "rgba(25, 165, 82, 0.9)" }}
+{{ $bg_gradient_end := .Params.bg_gradient_end | default site.Params.page_header_bg_gradient.end | default "rgba(0, 166, 191, 0.9)" }}
+
+<section class="page-header" {{ if $bg_image_resource }} style="background-image: linear-gradient({{ $bg_gradient_angle | safeCSS }}, {{ $bg_gradient_start | safeCSS }}, {{ $bg_gradient_end | safeCSS }}), url('{{ $bg_image_resource.RelPermalink | safeURL }}');" {{ end }}>
   <div class="container-xxl">
     <div class="row">
       <div class="col-lg-12">
@@ -10,7 +18,7 @@
               <i class="las {{.Params.icon}}" style="font-size:64px;"></i>
               {{ end }}
             </div>
-            <div class="header-frame my-3 py-5">
+            <div class="header-frame my-3 py-3">
               <div class="py-5">
                 <h1 class="title display-6 underline-none" data-aos="fade-up">{{ .Title | emojify}}</h1>
                 <nav aria-label="breadcrumb" data-aos="fade-up" data-aos-delay="200">

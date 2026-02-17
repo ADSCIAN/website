@@ -3,6 +3,10 @@ title: "Juridische Informatie"
 date: 2023-08-19
 draft: false
 icon: "la-gavel"
+bg_image: "images/beninurbaniz_oli2_20250111_lrg_compressed.jpg"
+bg_gradient_start: "rgba(25, 165, 82, 0.5)"
+bg_gradient_end: "rgba(0, 166, 191, 0.5)"
+layout: "legal"
 ---
 
 **Laatst bijgewerkt:** 2023-08-19
@@ -24,10 +28,6 @@ Hierna genoemd, ADSCIAN.
   van [HUGO](https://gohugo.io/) en
   de [Andromeda](https://docs.gethugothemes.com/andromeda/)
   template;
-* De satellietafbeelding op de voorpagina is beschikbaar gesteld door
-  de [Landsat Image Gallery](https://landsat.visibleearth.nasa.gov/): "
-  Landsat-afbeeldingen met dank aan NASA Goddard Space Flight Center en U.S.
-  Geological Survey";
 * De pictogrammen die niet worden gehost, worden geleverd
   door [Line Awesome](https://icons8.com/line-awesome) onder hun
   gebruiksvoorwaarden;
@@ -35,6 +35,18 @@ Hierna genoemd, ADSCIAN.
   deze website, zijn eigendom van ADSCIAN en worden beschermd door
   auteursrechtwetten. Ongeoorloofd gebruik, reproductie of distributie van de
   inhoud is strikt verboden.
+
+**Afbeeldingen**
+
+* De afbeeldingen op deze website zijn auteursrechtelijk beschermd door hun
+  respectievelijke eigenaars.
+* Startpagina: De satellietafbeelding op de startpagina is geleverd door
+  de [Landsat Image Gallery](https://landsat.visibleearth.nasa.gov/): "
+  Landsat-beelden met dank aan NASA Goddard Space Flight Center en U.S.
+  Geological Survey";
+* Juridische informatie: De afbeelding op de pagina met juridische informatie is
+  geleverd
+  door [NASA's Earth Observatory, Afbeelding van de dag, Snelle groei van Benin City](https://science.nasa.gov/earth/human-dimensions/urban-development/rapid-growth-for-benin-city/).
 
 ### Disclaimer
 
@@ -57,4 +69,5 @@ bezoekers, tenzij zij ervoor kiezen om rechtstreeks contact met ons op te nemen.
 ### Contact
 
 Als u vragen of opmerkingen heeft over deze voorwaarden of over enige inhoud op
-onze website, neem dan contact met ons op via [contact@adscian.com](mailto:contact@adscian.com).
+onze website, neem dan contact met ons op
+via [contact@adscian.com](mailto:contact@adscian.com).
