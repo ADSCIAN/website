@@ -1,0 +1,14 @@
+{{ define "main" }}
+  {{ partial "components/page-header.html" . }}
+  <section class="section-sm">
+    <div class="container-xxl">
+      <div class="row" data-aos="fade-in">
+        <div class="col-lg-10 mx-auto">
+          <div class="content legal-content">
+            {{ .Content }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{{ end }}
