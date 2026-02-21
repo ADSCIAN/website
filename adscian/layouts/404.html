@@ -1,5 +1,5 @@
 {{ define "main" }}
-{{ partial "components/page-header.html" (dict "Title" (i18n "page_not_found") "Section" "404" "icon" "la-exclamation-triangle" "bg_image" "images/woodfjorden_ast_2001177_lrg_compressed.jpg"  "bg_gradient_start" "rgba(25, 165, 82, 0.7)" "bg_gradient_end" "rgba(0, 166, 191, 0.7)") }}
+{{ partial "components/page-header.html" (dict "Title" (i18n "page_not_found") "Section" "404" "icon" "la-exclamation-triangle" "bg_image" "images/woodfjorden_ast_2001177_lrg_compressed.jpg"  "bg_gradient_start" "rgba(25, 165, 82, 0.5)" "bg_gradient_end" "rgba(163, 52, 102, 0.5)") }}
 <section class="section">
   <div class="container">
     <div class="row">
@@ -19,6 +19,36 @@
                 window.location.href = "{{ site.BaseURL | relURL }}" + lang + "/404.html";
                 return;
               }
+            }
+          })();
+        </script>
+
+        <div class="mt-5" id="quote-container" style="visibility: hidden;">
+          <blockquote class="blockquote border-0">
+            <p class="mb-2 font-italic h4 text-dark" id="quote-text"></p>
+            <footer class="blockquote-footer bg-transparent text-muted" id="quote-author"></footer>
+          </blockquote>
+        </div>
+
+        <script>
+          (function() {
+            {{ $currentLang := .Lang }}
+            {{ $localizedQuotes := slice }}
+            {{ range site.Data.quotes }}
+              {{ $text := index .text $currentLang }}
+              {{ if $text }}
+                {{ $localizedQuotes = $localizedQuotes | append (dict "text" $text "author" .author) }}
+              {{ else }}
+                {{/* Fallback to English if current language translation is missing */}}
+                {{ $localizedQuotes = $localizedQuotes | append (dict "text" .text.en "author" .author) }}
+              {{ end }}
+            {{ end }}
+            var quotes = JSON.parse('{{ $localizedQuotes | jsonify | safeJS }}');
+            if (quotes && quotes.length > 0) {
+              var randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+              document.getElementById('quote-text').textContent = '"' + randomQuote.text + '"';
+              document.getElementById('quote-author').textContent = randomQuote.author;
+              document.getElementById('quote-container').style.visibility = 'visible';
             }
           })();
         </script>
