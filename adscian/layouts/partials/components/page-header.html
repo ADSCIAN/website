@@ -23,9 +23,9 @@
                 <h1 class="title display-6 underline-none" data-aos="fade-up">{{ .Title | emojify}}</h1>
                 <nav aria-label="breadcrumb" data-aos="fade-up" data-aos-delay="200">
                   <ol class="breadcrumb justify-content-center bg-transparent p-0 mb-0">
-                    <li class="breadcrumb-item"><a class="link-primary" href="{{ site.BaseURL | relURL }}">Home</a></li>
+                    <li class="breadcrumb-item"><a class="link-primary" href="{{ site.BaseURL | relURL }}">{{ i18n "home" }}</a></li>
                     <li class="breadcrumb-item active" aria-current="page"><a class="link-primary"
-                                                                              href="{{ absURL .Section | relURL}}">{{ .Section | humanize}}</a></li>
+                                                                              href="{{ absURL .Section | relURL}}">{{ i18n .Section }}</a></li>
                   </ol>
                 </nav>
               </div>

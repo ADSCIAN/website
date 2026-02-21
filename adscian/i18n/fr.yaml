@@ -105,9 +105,13 @@
 
 - id: page_not_found
   translation: 404 Page Introuvable!
+- id: home
+  translation: Accueil
 - id: back_to_home
   translation: Retour à l'accueil
 - id: month
   translation: Mois
 - id: year
   translation: An
+- id: legal
+  translation: Mentions légales
