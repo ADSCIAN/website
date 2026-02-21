@@ -1,10 +1,19 @@
 {{ $bg_image := .Params.bg_image | default "images/SRE_Landsat_h1600.jpg" }}
+{{ if reflect.IsMap . }}
+  {{ if .bg_image }}{{ $bg_image = .bg_image }}{{ end }}
+{{ end }}
 {{ $bg_image_resource := resources.Get $bg_image }}
 
 {{/* Gradient configuration */}}
 {{ $bg_gradient_angle := .Params.bg_gradient_angle | default site.Params.page_header_bg_gradient.angle | default "45deg" }}
 {{ $bg_gradient_start := .Params.bg_gradient_start | default site.Params.page_header_bg_gradient.start | default "rgba(25, 165, 82, 0.9)" }}
 {{ $bg_gradient_end := .Params.bg_gradient_end | default site.Params.page_header_bg_gradient.end | default "rgba(0, 166, 191, 0.9)" }}
+
+{{ if reflect.IsMap . }}
+  {{ if .bg_gradient_angle }}{{ $bg_gradient_angle = .bg_gradient_angle }}{{ end }}
+  {{ if .bg_gradient_start }}{{ $bg_gradient_start = .bg_gradient_start }}{{ end }}
+  {{ if .bg_gradient_end }}{{ $bg_gradient_end = .bg_gradient_end }}{{ end }}
+{{ end }}
 
 <section class="page-header" {{ if $bg_image_resource }} style="background-image: linear-gradient({{ $bg_gradient_angle | safeCSS }}, {{ $bg_gradient_start | safeCSS }}, {{ $bg_gradient_end | safeCSS }}), url('{{ $bg_image_resource.RelPermalink | safeURL }}');" {{ end }}>
   <div class="container-xxl">
@@ -14,8 +23,12 @@
           <div class="section-title text-center mb-0">
             <div class="icon mx-3" style="color: #dbf0e9;" data-aos="flip-left" data-aos-easing="ease-out-cubic"
                  data-aos-duration="3000">
-              {{if isset .Params "icon"}}
-              <i class="las {{.Params.icon}}" style="font-size:64px;"></i>
+              {{ $icon := .Params.icon }}
+              {{ if reflect.IsMap . }}
+                {{ if .icon }}{{ $icon = .icon }}{{ end }}
+              {{ end }}
+              {{ if $icon }}
+              <i class="las {{$icon}}" style="font-size:64px;"></i>
               {{ end }}
             </div>
             <div class="header-frame my-3 py-3">
