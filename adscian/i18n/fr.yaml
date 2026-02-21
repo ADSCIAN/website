@@ -103,8 +103,11 @@
 - id: yearly
   translation: Facturé annuellement
 
+- id: page_not_found
+  translation: 404 Page Introuvable!
+- id: back_to_home
+  translation: Retour à l'accueil
 - id: month
   translation: Mois
-
 - id: year
   translation: An

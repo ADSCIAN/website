@@ -1,6 +1,14 @@
 ##### Error Handling
 ErrorDocument 404 /404.html
 
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  # Redirect to language-specific 404 if it exists and the request starts with the language code
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^(fr|nl)/.* /$1/404.html [L]
+</IfModule>
+
 ##### Optimize default expiration time - BEGIN
 <IfModule mod_expires.c>
 

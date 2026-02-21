@@ -103,8 +103,11 @@
 - id: yearly
   translation: Billed Annually
 
+- id: page_not_found
+  translation: 404 Page Not Found!
+- id: back_to_home
+  translation: Back To Home
 - id: month
   translation: Month
-
 - id: year
   translation: Year

@@ -1,0 +1,8 @@
+- id: page_not_found
+  translation: 404 Pagina Niet Gevonden!
+- id: back_to_home
+  translation: Terug naar Startpagina
+- id: month
+  translation: Maand
+- id: year
+  translation: Jaar
