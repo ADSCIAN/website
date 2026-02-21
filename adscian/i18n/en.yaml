@@ -104,7 +104,7 @@
   translation: Billed Annually
 
 - id: page_not_found
-  translation: 404 Page Not Found!
+  translation: 404 Page Not Found
 - id: home
   translation: Home
 - id: back_to_home

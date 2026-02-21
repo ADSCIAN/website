@@ -1,29 +1,29 @@
 {{ define "main" }}
-  {{ partial "components/page-header.html" (dict "Title" (i18n "page_not_found") "Section" "404" "icon" "la-exclamation-triangle" "bg_gradient_start" "rgba(255, 0, 0, 0.8)" "bg_gradient_end" "rgba(0, 0, 0, 0.8)") }}
-  <section class="section">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-10 mx-auto text-center">
-          {{ $languages := slice }}
-          {{ range site.Languages }}
-            {{ $languages = $languages | append .Lang }}
-          {{ end }}
-          <script>
-            // Simple language redirection logic for 404
-            (function() {
-              var path = window.location.pathname;
-              var languages = JSON.parse('{{ $languages | jsonify | safeJS }}');
-              for (var i = 0; i < languages.length; i++) {
-                var lang = languages[i];
-                if (path.indexOf("/" + lang + "/") === 0 && path.indexOf("/" + lang + "/404.html") === -1) {
-                  window.location.href = "{{ site.BaseURL | relURL }}" + lang + "/404.html";
-                  return;
-                }
+{{ partial "components/page-header.html" (dict "Title" (i18n "page_not_found") "Section" "404" "icon" "la-exclamation-triangle" "bg_image" "images/woodfjorden_ast_2001177_lrg_compressed.jpg"  "bg_gradient_start" "rgba(25, 165, 82, 0.7)" "bg_gradient_end" "rgba(0, 166, 191, 0.7)") }}
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto text-center">
+        {{ $languages := slice }}
+        {{ range site.Languages }}
+        {{ $languages = $languages | append .Lang }}
+        {{ end }}
+        <script>
+          // Simple language redirection logic for 404
+          (function () {
+            var path = window.location.pathname;
+            var languages = JSON.parse('{{ $languages | jsonify | safeJS }}');
+            for (var i = 0; i < languages.length; i++) {
+              var lang = languages[i];
+              if (path.indexOf("/" + lang + "/") === 0 && path.indexOf("/" + lang + "/404.html") === -1) {
+                window.location.href = "{{ site.BaseURL | relURL }}" + lang + "/404.html";
+                return;
               }
-            })();
-          </script>
-        </div>
+            }
+          })();
+        </script>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 {{ end }}

@@ -104,7 +104,7 @@
   translation: Facturé annuellement
 
 - id: page_not_found
-  translation: 404 Page Introuvable!
+  translation: 404 Page Introuvable
 - id: home
   translation: Accueil
 - id: back_to_home
