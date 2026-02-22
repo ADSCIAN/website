@@ -16,7 +16,7 @@ layout: "legal"
 | &nbsp;                  | &nbsp; | &nbsp;                                                                   |
 |-------------------------|--------|--------------------------------------------------------------------------|
 | **Naam**                | &nbsp; | AD Scientific Consulting & Environmental Systems Analytics (ADSCIAN SRL) |
-| **Geregistreerd Adres** | &nbsp; | Av. du Paepedelle 65, 1160, Brussel, België                              |
+| **Geregistreerd Adres** | &nbsp; | Paepedellelaan 65, 1160, Brussel, België                                 |
 | **BTW-nummer**          | &nbsp; | BE 0772.850.171                                                          |
 | **Contactgegevens**     | &nbsp; | contact@adscian.be                                                       |
 
@@ -27,26 +27,36 @@ Hierna genoemd, ADSCIAN.
 * De ADSCIAN-website is een statische website die is gegenereerd met behulp
   van [HUGO](https://gohugo.io/) en
   de [Andromeda](https://docs.gethugothemes.com/andromeda/)
-  template;
+  template, aangeboden door [gethugothemes](https://gethugothemes.com/);
 * De pictogrammen die niet worden gehost, worden geleverd
   door [Line Awesome](https://icons8.com/line-awesome) onder hun
   gebruiksvoorwaarden;
-* Alle andere inhoud, inclusief teksten, grafieken, logo's en afbeeldingen op
-  deze website, zijn eigendom van ADSCIAN en worden beschermd door
-  auteursrechtwetten. Ongeoorloofd gebruik, reproductie of distributie van de
-  inhoud is strikt verboden.
 
-**Afbeeldingen**
+**Aardobservatiebeelden**
 
-* De afbeeldingen op deze website zijn auteursrechtelijk beschermd door hun
-  respectievelijke eigenaars.
-* Startpagina: De satellietafbeelding op de startpagina is geleverd door
-  de [Landsat Image Gallery](https://landsat.visibleearth.nasa.gov/): "
-  Landsat-beelden met dank aan NASA Goddard Space Flight Center en U.S.
-  Geological Survey";
-* Juridische informatie: De afbeelding op de pagina met juridische informatie is
-  geleverd
-  door [NASA's Earth Observatory, Afbeelding van de dag, Snelle groei van Benin City](https://science.nasa.gov/earth/human-dimensions/urban-development/rapid-growth-for-benin-city/).
+* De headerafbeeldingen van de pagina’s zijn afkomstig uit
+  de [NASA Earth Observatory—Image of the Day Collection](https://science.nasa.gov/earth/earth-observatory/image-of-the-day/)
+  en zijn auteursrechtelijk beschermd door hun respectieve eigenaars.
+* Startpagina:
+  [A Blackwater River Meets the Sea](https://science.nasa.gov/earth/earth-observatory/a-blackwater-river-meets-the-sea-144147/).  
+  Instrument: _Landsat 8-OLI_.
+  Credit:
+* Juridische informatie:
+  [Rapid Growth of Benin City](https://science.nasa.gov/earth/human-dimensions/urban-development/rapid-growth-for-benin-city/).
+  Instrument: _Landsat 9-OLI_.
+  Credit: _NASA Earth Observatory images by Lauren Dauphin, using Landsat data
+  from the U.S. Geological Survey. Story by Adam Voiland_.
+* 404-pagina:
+  [Woodfjorden](https://science.nasa.gov/earth/earth-observatory/woodfjorden-5757/).
+  Instrument: _Terra-ASTER_.
+  Credit: _NASA Earth Observatory image created by Jesse Allen, using data
+  obtained from the Goddard Earth Sciences DAAC courtesy of the
+  NASA/GSFC/MITI/ERSDAC/JAROS, and U.S./Japan ASTER Science Team_
+
+Tenzij anders vermeld, is alle overige inhoud, waaronder teksten, grafische
+elementen, logo’s en afbeeldingen op deze website, eigendom van ADSCIAN en
+beschermd door de auteurswetgeving. Ongeoorloofd gebruik, reproductie of
+verspreiding van de inhoud is strikt verboden.
 
 ### Disclaimer
 
