@@ -8,21 +8,21 @@ url = ""
 weight = 100
 
 [[main]]
-identifier = "sevices"
+identifier = "services"
 name = "Diensten"
-url = "#services"
+url = "/#services"
 weight = 200
 
 [[main]]
 identifier = "about"
 name = "Over ons"
-url = "#about"
+url = "/#about"
 weight = 300
 
 [[main]]
 identifier = "contact"
 name = "Contact"
-url = "#contact"
+url = "/#contact"
 weight = 400
 
 [[footer]]
