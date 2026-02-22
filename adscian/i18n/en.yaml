@@ -117,3 +117,5 @@
   translation: Year
 - id: legal
   translation: Legal
+- id: footer_address
+  translation: Paepedelle Ave 65, 1160, Brussels, Belgium

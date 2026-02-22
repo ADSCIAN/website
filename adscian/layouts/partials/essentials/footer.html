@@ -45,7 +45,7 @@
           <h6 class="text-uppercase fw-bold mb-4">
             Contact
           </h6>
-          <p class="text-start"><i class="las la-home px-1"></i>{{site.Params.footer_info.address}}</p>
+          <p class="text-start"><i class="las la-home px-1"></i>{{ i18n "footer_address" | default site.Params.footer_info.address }}</p>
           <p class="footer-links text-start">
             <i class="las la-envelope px-1"></i>
             <a href="mailto:{{site.Params.footer_info.email}}">{{site.Params.footer_info.email}}</a>
