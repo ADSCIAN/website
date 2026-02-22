@@ -1,6 +1,6 @@
 ---
 title: "Legal Information"
-date: 2023-08-19
+date: 2026-02-22
 draft: false
 icon: "la-gavel"
 bg_image: "images/beninurbaniz_oli2_20250111_lrg_compressed.jpg"
@@ -8,8 +8,6 @@ bg_gradient_start: "rgba(25, 165, 82, 0.5)"
 bg_gradient_end: "rgba(0, 166, 191, 0.5)"
 layout: "legal"
 ---
-
-**Last updated:** 2025-11-17
 
 ### Company Information
 

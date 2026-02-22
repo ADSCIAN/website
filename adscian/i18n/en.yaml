@@ -109,6 +109,8 @@
   translation: Home
 - id: back_to_home
   translation: Back To Home
+- id: last_updated
+  translation: "Last updated:"
 - id: month
   translation: Month
 - id: year

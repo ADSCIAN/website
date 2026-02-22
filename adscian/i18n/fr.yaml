@@ -109,6 +109,8 @@
   translation: Accueil
 - id: back_to_home
   translation: Retour à l'accueil
+- id: last_updated
+  translation: "Dernière mise à jour :"
 - id: month
   translation: Mois
 - id: year

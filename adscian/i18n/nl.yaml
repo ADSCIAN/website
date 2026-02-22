@@ -4,6 +4,8 @@
   translation: Home
 - id: back_to_home
   translation: Terug naar Startpagina
+- id: last_updated
+  translation: "Laatst bijgewerkt:"
 - id: month
   translation: Maand
 - id: year

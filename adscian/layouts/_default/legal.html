@@ -5,6 +5,7 @@
       <div class="row" data-aos="fade-in">
         <div class="col-lg-10 mx-auto">
           <div class="content legal-content">
+            <p><strong>{{ i18n "last_updated" }}</strong> {{ .Date | time.Format ":date_long" }}</p>
             {{ .Content }}
           </div>
         </div>
