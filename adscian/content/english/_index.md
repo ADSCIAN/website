@@ -1,4 +1,6 @@
 ---
+description: "ADSCIAN offers expert consulting in water, environment, and climate challenges. We bridge science and action through data analysis, research synthesis, and tailored training for public, private, and academic sectors."
+keywords: ["environmental consulting", "climate change solutions", "water resource management", "data science for environment", "scientific research synthesis", "GIS and data analysis training", "proposal writing for environmental projects", "hydrology consulting", "public sector environmental support", "scientific literature review"]
 index_head:
     text: "We support the design of scientifically-solid responses to water, environment, and climate challenges"
     image_src: "images/SRE_Landsat_h1600.jpg"

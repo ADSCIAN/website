@@ -1,5 +1,7 @@
 ---
 title: "Legal Information"
+description: "Legal information and terms of use for the ADSCIAN website. Information about our company, intellectual property, and privacy policy."
+keywords: ["legal information", "terms of use", "privacy policy", "intellectual property", "ADSCIAN", "company information"]
 date: 2026-02-22
 draft: false
 icon: "la-gavel"

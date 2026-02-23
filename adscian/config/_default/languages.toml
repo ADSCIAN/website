@@ -1,5 +1,6 @@
 ################################### English language #####################################
 [en]
+title = "ADSCIAN"
 languageName = "En"
 languageCode = "en-us"
 contentDir = "content/english"
@@ -11,6 +12,7 @@ copyright = "Designed By [Themefisher](https://themefisher.com/) & Developed By 
 
 ################################### French language #####################################
 [fr]
+title = "ADSCIAN"
 languageName = "Fr"
 languageCode = "fr-fr"
 contentDir = "content/french"
@@ -20,6 +22,7 @@ copyright = "Conçu Par [Themefisher](https://themefisher.com/) & Développé Pa
 
 ################################### Dutch language #####################################
 [nl]
+title = "ADSCIAN"
 languageName = "Nl"
 languageCode = "nl-nl"
 contentDir = "content/dutch"

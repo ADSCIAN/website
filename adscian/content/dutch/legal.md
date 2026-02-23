@@ -1,5 +1,7 @@
 ---
 title: "Juridische Informatie"
+description: "Juridische informatie en gebruiksvoorwaarden voor de ADSCIAN-website. Informatie over ons bedrijf, intellectueel eigendom en privacybeleid."
+keywords: ["juridische informatie", "gebruiksvoorwaarden", "privacybeleid", "intellectueel eigendom", "ADSCIAN", "bedrijfsinformatie"]
 date: 2026-02-22
 draft: false
 icon: "la-gavel"

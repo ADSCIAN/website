@@ -1,4 +1,6 @@
 ---
+description: "ADSCIAN propose une expertise en conseil pour les défis liés à l'eau, à l'environnement et au climat. Nous faisons le pont entre la science et l'action grâce à l'analyse de données, la synthèse de recherche et des formations sur mesure pour les secteurs public, privé et académique."
+keywords: ["conseil environnemental", "solutions changement climatique", "gestion ressources en eau", "science des données pour l'environnement", "synthèse de recherche scientifique", "formation SIG et analyse de données", "rédaction de propositions pour projets environnementaux", "conseil en hydrologie", "soutien environnemental secteur public", "revue de littérature scientifique"]
 index_head:
   text: "Nous soutenons la conception de réponses scientifiquement solides aux défis liés à l'eau, à l'environnement et au climat."
   image_src: "images/SRE_Landsat_h1600.jpg"

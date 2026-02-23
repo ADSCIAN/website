@@ -1,4 +1,6 @@
 ---
+description: "ADSCIAN biedt deskundig advies over water-, milieu- en klimaatuitdagingen. Wij slaan een brug tussen wetenschap en praktijk via data-analyse, onderzoekssynthese en trainingen op maat voor de publieke, private en academische sector."
+keywords: ["milieuadvies", "oplossingen voor klimaatverandering", "waterbeheer", "datawetenschap voor milieu", "wetenschappelijke onderzoekssynthese", "GIS en data-analyse training", "voorstel schrijven voor milieuprojecten", "hydrologie advies", "milieuondersteuning publieke sector", "wetenschappelijk literatuuronderzoek"]
 index_head:
   text: "Wij ondersteunen het ontwerp van wetenschappelijk solide antwoorden op uitdagingen met betrekking tot water, milieu en klimaat."
   image_src: "images/SRE_Landsat_h1600.jpg"

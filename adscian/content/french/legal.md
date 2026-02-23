@@ -1,5 +1,7 @@
 ---
 title: "Informations Légales"
+description: "Informations légales et conditions d'utilisation du site web ADSCIAN. Informations sur notre entreprise, propriété intellectuelle et politique de confidentialité."
+keywords: ["informations légales", "conditions d'utilisation", "politique de confidentialité", "propriété intellectuelle", "ADSCIAN", "informations entreprise"]
 date: 2026-02-22
 draft: false
 icon: "la-gavel"
