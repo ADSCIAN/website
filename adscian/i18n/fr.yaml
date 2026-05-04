@@ -119,3 +119,9 @@
   translation: Mentions légales
 - id: footer_address
   translation: Av. du Paepedelle 65, 1160, Bruxelles, Belgique
+- id: projects
+  translation: Projets
+- id: our_contribution
+  translation: Notre contribution
+- id: visit_project_website
+  translation: Visiter le site du projet

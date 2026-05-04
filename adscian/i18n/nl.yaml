@@ -14,3 +14,9 @@
   translation: Juridisch
 - id: footer_address
   translation: Paepedellelaan 65, 1160, Brussel, België
+- id: projects
+  translation: Projecten
+- id: our_contribution
+  translation: Onze bijdrage
+- id: visit_project_website
+  translation: Bezoek de projectwebsite

@@ -119,3 +119,9 @@
   translation: Legal
 - id: footer_address
   translation: Paepedelle Ave 65, 1160, Brussels, Belgium
+- id: projects
+  translation: Projects
+- id: our_contribution
+  translation: "ADSCIAN's contribution"
+- id: visit_project_website
+  translation: Visit the project website

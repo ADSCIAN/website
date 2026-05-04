@@ -1,0 +1,46 @@
+{{ define "main" }}
+
+{{ partial "components/page-header.html" . }}
+
+<section class="section-sm">
+  <div class="container-xxl">
+    <div class="row justify-content-center" data-aos="fade-in">
+      {{ with .Params.image }}
+      <div class="col-lg-10 mb-5">
+        {{ partial "image.html" (dict "Src" . "Alt" "project image" "Class" "w-100 rounded-3" "Size" "1020x") }}
+      </div>
+      {{ end }}
+
+      <div class="col-lg-10">
+        <div class="row mb-4">
+          {{ with .Params.client }}
+          <div class="col-md-4">
+            <h5>Client</h5>
+            <p>{{ . }}</p>
+          </div>
+          {{ end }}
+
+          {{ with .Params.category }}
+          <div class="col-md-4">
+            <h5>{{ T "category" | default "Category" }}</h5>
+            <p>{{ . }}</p>
+          </div>
+          {{ end }}
+
+          {{ with .Date }}
+          <div class="col-md-4">
+            <h5>{{ T "date" | default "Date" }}</h5>
+            <p>{{ .Format "January 2006" }}</p>
+          </div>
+          {{ end }}
+        </div>
+
+        <div class="content">
+          {{ .Content }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}
