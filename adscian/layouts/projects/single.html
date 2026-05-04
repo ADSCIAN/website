@@ -20,7 +20,7 @@
           {{ with .Params.category }}
           <span class="project-tag project-tag--light">{{ . }}</span>
           {{ end }}
-          <span class="project-tag-date ms-auto">{{ .Date.Format "January 2006" }}</span>
+          <span class="project-tag-date ms-auto">{{ .Date | time.Format ":date_long" }}</span>
         </div>
 
         {{/* Hero image — omitted if front matter image is blank */}}
