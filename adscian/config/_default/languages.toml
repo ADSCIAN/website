@@ -6,7 +6,7 @@ languageCode = "en-us"
 contentDir = "content/english"
 weight = 1
 # copyright
-copyright = "Designed By [Themefisher](https://themefisher.com/) & Developed By [Gethugothemes](https://gethugothemes.com/)"
+copyright = ""
 
 
 
@@ -18,7 +18,7 @@ languageCode = "fr-fr"
 contentDir = "content/french"
 weight = 2
 # copyright
-copyright = "Conçu Par [Themefisher](https://themefisher.com/) & Développé Par [Gethugothemes](https://gethugothemes.com/)"
+copyright = ""
 
 ################################### Dutch language #####################################
 [nl]
@@ -28,4 +28,4 @@ languageCode = "nl-nl"
 contentDir = "content/dutch"
 weight = 3
 # copyright
-copyright = "Ontworpen door [Themefisher](https://themefisher.com/) & Ontwikkeld door [Gethugothemes](https://gethugothemes.com/)"
+copyright = ""

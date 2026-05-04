@@ -20,6 +20,12 @@ url = "/#about"
 weight = 300
 
 [[main]]
+identifier = "projects"
+name = "Projects"
+url = "/projects"
+weight = 350
+
+[[main]]
 identifier = "contact"
 name = "Contact"
 url = "/#contact"
