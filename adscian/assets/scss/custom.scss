@@ -407,3 +407,145 @@ select#select-language- option {
   display: none;
 }
 
+// Project pages
+
+.project-tag-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+
+.project-tag {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding: 3px 12px;
+  border-radius: 20px;
+  line-height: 1.5;
+  font-variant: normal;
+
+  &--primary {
+    background-color: #06a6a1;
+    color: #ffffff;
+  }
+
+  &--dark {
+    background-color: #324a51;
+    color: #DBF0E9;
+  }
+
+  &--light {
+    background-color: #DBF0E9;
+    color: #324a51;
+  }
+}
+
+.project-tag-date {
+  font-size: 0.75rem;
+  color: #888;
+}
+
+.project-role-callout {
+  border-left: 4px solid #06a6a1;
+  background: #f0fbfa;
+  padding: 16px 20px;
+  border-radius: 0 6px 6px 0;
+
+  &__label {
+    font-size: 0.7rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #06a6a1;
+    font-weight: 600;
+    margin-bottom: 8px;
+    font-variant: normal;
+  }
+}
+
+.project-content > p:first-child {
+  font-size: 1.05rem;
+  font-weight: 400;
+  color: #324a51;
+}
+
+.project-external-link {
+  color: #06a6a1;
+  font-weight: 500;
+  text-decoration: none;
+  border-bottom: 1px solid #06a6a1;
+  padding-bottom: 1px;
+
+  &:hover {
+    color: #324a51 !important;
+    border-color: #324a51;
+  }
+}
+
+// Horizontal project card (list page)
+
+.project-card-horizontal {
+  display: flex;
+  border: 1px solid #e4e4e4;
+  border-radius: 6px;
+  overflow: hidden;
+  transition: box-shadow 0.2s ease;
+
+  &:hover {
+    box-shadow: 0 4px 16px rgba(50, 74, 81, 0.12);
+  }
+}
+
+.project-card-strip {
+  width: 160px;
+  flex-shrink: 0;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.project-card-strip-placeholder {
+  width: 100%;
+  height: 100%;
+  min-height: 160px;
+  background: linear-gradient(135deg, #06a6a1, #324a51);
+}
+
+.project-card-body {
+  padding: 24px 28px;
+  flex: 1;
+}
+
+.project-read-more {
+  font-size: 0.875rem;
+  color: #06a6a1;
+  font-weight: 500;
+  text-decoration: none;
+  border-bottom: 1px solid #06a6a1;
+  padding-bottom: 1px;
+
+  &:hover {
+    color: #324a51 !important;
+    border-color: #324a51;
+  }
+}
+
+@media (max-width: 576px) {
+  .project-card-horizontal {
+    flex-direction: column;
+  }
+
+  .project-card-strip {
+    width: 100%;
+    height: 140px;
+  }
+
+  .project-card-strip-placeholder {
+    min-height: 140px;
+  }
+}
+
