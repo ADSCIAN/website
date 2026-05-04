@@ -2,8 +2,8 @@
 # The base URL of your site (required). This will be prepended to all relative URLs.
 # Set to your GitHub Pages URL to avoid broken links when deployed.
 # If you later use a custom domain, update this to that domain (e.g., "https://example.com/").
-#baseURL = "https://adscian.github.io/website/"
-baseURL = "https://www.adscian.be/"
+baseURL = "https://adscian.github.io/website/"
+#baseURL = "https://www.adscian.be/"
 # Title of your website (required).
 title = "ADSCIAN"
 # Your theme name
