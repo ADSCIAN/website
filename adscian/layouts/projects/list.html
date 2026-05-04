@@ -3,33 +3,38 @@
 {{ partial "components/page-header.html" . }}
 
 <section class="section-sm" data-aos="fade-in">
-  <div class="container-xxl">
-    <div class="row justify-content-center">
-      {{ range .Pages }}
-      <div class="col-lg-4 col-md-6 mb-4">
-        <div class="card h-100 shadow-sm hover-shadow">
-          {{ with .Params.image }}
-          <a href="{{ $.RelPermalink }}">
-            {{ partial "image.html" (dict "Src" . "Alt" "project image" "Class" "card-img-top" "Size" "400x") }}
-          </a>
-          {{ end }}
-          <div class="card-body d-flex flex-column">
-            {{ with .Params.category }}
-            <span class="badge bg-primary mb-2">{{ . }}</span>
-            {{ end }}
-            <h4 class="card-title">
-              <a href="{{ .RelPermalink }}" class="text-decoration-none text-dark">{{ .Title }}</a>
-            </h4>
-            <p class="card-text flex-grow-1">{{ .Params.description }}</p>
-            {{ with .Params.client }}
-            <p class="text-muted mb-2"><small><strong>Client:</strong> {{ . }}</small></p>
-            {{ end }}
-            <a href="{{ .RelPermalink }}" class="btn btn-outline-primary mt-2">{{ T "view_project" | default "View Project" }}</a>
-          </div>
-        </div>
+  <div class="container-xxl py-5">
+    {{ range .Pages }}
+    <div class="project-card-horizontal mb-4" data-aos="fade-up">
+      <div class="project-card-strip">
+        {{ if .Params.image }}
+          {{ partial "image.html" (dict "Src" .Params.image "Alt" .Title "Class" "w-100 h-100" "Size" "320x") }}
+        {{ else }}
+          <div class="project-card-strip-placeholder"></div>
+        {{ end }}
       </div>
-      {{ end }}
+      <div class="project-card-body">
+        <div class="project-tag-row mb-2">
+          {{ with (or .Params.funder .Params.client) }}
+          <span class="project-tag project-tag--primary">{{ . }}</span>
+          {{ end }}
+          {{ if .Params.period }}
+          <span class="project-tag project-tag--dark">{{ .Params.period }}</span>
+          {{ else }}
+          <span class="project-tag project-tag--dark">{{ .Date.Format "2006" }}</span>
+          {{ end }}
+          {{ with .Params.category }}
+          <span class="project-tag project-tag--light">{{ . }}</span>
+          {{ end }}
+        </div>
+        <h4 class="mb-2">
+          <a href="{{ .RelPermalink }}" class="text-decoration-none text-dark">{{ .Title }}</a>
+        </h4>
+        <p class="text-muted mb-3">{{ .Params.description }}</p>
+        <a href="{{ .RelPermalink }}" class="project-read-more">{{ i18n "read_more" }} →</a>
+      </div>
     </div>
+    {{ end }}
   </div>
 </section>
 
