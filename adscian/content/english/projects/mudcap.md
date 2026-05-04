@@ -9,6 +9,7 @@ our_role: "We lead the compilation of a **transnational database of pluvial mudd
 website: "https://mudcap.nweurope.eu"
 draft: false
 image: "images/projects/mudcap.jpg"
+logo: "images/projects/mudcap_logo.png"
 bg_image: "images/florida_oli2_20260203_lrg_compressed.jpg"
 bg_gradient_start: "rgba(25, 165, 82, 0.2)"
 bg_gradient_end: "rgba(0, 166, 191, 0.2)"
@@ -19,7 +20,3 @@ Pluvial muddy floods — intense rainfall events that flush sediment-laden water
 **MUDCAP** (*MUDdy flood mitigation through transnational action-oriented CAPacity building*) is a 3-year Interreg NW Europe project that brings together 11 research institutions and public agencies from Belgium, France, and Germany to change that. The project aims to equip local and regional stakeholders with innovative tools to predict, prevent, and mitigate pluvial muddy flood risks — through transnational data sharing, new governance approaches, and co-developed digital toolkits.
 
 The project is co-financed by the European Regional Development Fund through the Interreg North-West Europe programme, with a total budget of €5,976,031 (EU contribution: €3,585,619). UCLouvain (Belgium) leads the consortium; ADSCIAN is one of six Belgian partners alongside the Flemish Environment Agency (VMM), the Department of Environment and Spatial Development (DOMG), Ghent University, and others from France and Germany.
-
-<div class="mt-5 text-center">
-  <img src="https://mudcap.nweurope.eu/web/image/website/100/logo/MUDCAP" alt="MUDCAP logo" style="max-height: 80px; opacity: 0.85;">
-</div>

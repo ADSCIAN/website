@@ -43,6 +43,13 @@
           {{ .Content }}
         </article>
 
+        {{/* Partner / project logo — omitted if logo is blank */}}
+        {{ with .Params.logo }}
+        <div class="mt-5 text-center">
+          {{ partial "image.html" (dict "Src" . "Alt" (printf "%s logo" $.Title) "Size" "x80") }}
+        </div>
+        {{ end }}
+
         {{/* External project link — omitted if website is blank */}}
         {{ with .Params.website }}
         <div class="mt-4 pt-3 border-top">
