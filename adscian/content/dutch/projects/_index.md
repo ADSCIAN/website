@@ -1,5 +1,5 @@
 ---
 title: "Projecten"
-description: "Ontdek onze portfolio van succesvolle projecten en oplossingen"
+description: "Ontdek ons portfolio van projecten en oplossingen"
 draft: false
 ---
