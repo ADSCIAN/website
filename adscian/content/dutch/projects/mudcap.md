@@ -8,6 +8,10 @@ category: "Data & Onderzoek"
 our_role: "Wij leiden de samenstelling van een **transnationale database van pluviale modderstroomevenementen** in de drie partnerlanden. Deze geharmoniseerde dataset — met veldgegevens, historische archieven en ruimtelijke gegevens over bodem, landgebruik en reliëf — vormt de empirische ruggengraat van de voorspellende modellering en beheersinstrumenten binnen MUDCAP."
 website: "https://mudcap.nweurope.eu"
 draft: false
+image: "images/projects/mudcap.jpg"
+bg_image: "images/florida_oli2_20260203_lrg_compressed.jpg"
+bg_gradient_start: "rgba(25, 165, 82, 0.2)"
+bg_gradient_end: "rgba(0, 166, 191, 0.2)"
 ---
 
 Pluviale modderstromen — intense neerslag die sedimentrijk water over akkers en door dorpen spoelt — worden steeds frequenter en destructiever in de lössgordel van Noordwest-Europa. Ze blijven echter slecht gedocumenteerd, moeilijk te voorspellen en duur om te beheersen.
@@ -15,3 +19,7 @@ Pluviale modderstromen — intense neerslag die sedimentrijk water over akkers e
 **MUDCAP** (*MUDdy flood mitigation through transnational action-oriented CAPacity building*) is een driejarig Interreg Noordwest-Europa project dat 11 onderzoeksinstellingen en overheidsdiensten uit België, Frankrijk en Duitsland samenbrengt. Het doel: lokale en regionale actoren uitrusten met innovatieve tools om pluviale modderstroomrisico's te voorspellen, voorkomen en beperken — via transnationale gegevensdeling, nieuwe bestuursbenaderingen en gezamenlijk ontwikkelde digitale toolkits.
 
 Het project wordt medegefinancierd door het Europees Fonds voor Regionale Ontwikkeling via het programma Interreg Noordwest-Europa, met een totaalbudget van € 5.976.031 (EU-bijdrage: € 3.585.619). UCLouvain (België) is de leidende partner; ADSCIAN is een van de zes Belgische partners, naast VMM, DOMG, UGent en partners uit Frankrijk en Duitsland.
+
+<div class="mt-5 text-center">
+  <img src="https://mudcap.nweurope.eu/web/image/website/100/logo/MUDCAP" alt="MUDCAP logo" style="max-height: 80px; opacity: 0.85;">
+</div>
