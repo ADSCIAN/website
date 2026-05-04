@@ -4,31 +4,31 @@
 [[main]]
 identifier = "home"
 name = "Accueil"
-url = ""
+url = "/fr/"
 weight = 100
 
 [[main]]
 identifier = "services"
 name = "Services"
-url = "/#services"
+url = "/fr/#services"
 weight = 200
 
 [[main]]
 identifier = "about"
 name = "A propos"
-url = "/#about"
+url = "/fr/#about"
 weight = 300
 
 [[main]]
 identifier = "projects"
 name = "Projets"
-url = "/projects"
+url = "/fr/projects"
 weight = 350
 
 [[main]]
 identifier = "contact"
 name = "Contact"
-url = "/#contact"
+url = "/fr/#contact"
 weight = 400
 
 [[footer]]

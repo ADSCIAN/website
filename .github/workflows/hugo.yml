@@ -11,7 +11,7 @@ permissions:
   id-token: write
 
 env:
-  HUGO_ENV: production
+  HUGO_ENV: github
   HUGO_VERSION: "0.147.2"
   GO_VERSION: "1.24.3"
   NODE_VERSION: "18.15.0"
