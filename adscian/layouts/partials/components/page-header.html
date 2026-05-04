@@ -38,7 +38,7 @@
                   <ol class="breadcrumb justify-content-center bg-transparent p-0 mb-0">
                     <li class="breadcrumb-item"><a class="link-primary" href="{{ site.Home.RelPermalink }}">{{ i18n "home" }}</a></li>
                     <li class="breadcrumb-item active" aria-current="page"><a class="link-primary"
-                                                                              href="{{ absURL .Section | relURL}}">{{ i18n .Section }}</a></li>
+                                                                              href="{{ .Section | relLangURL }}">{{ i18n .Section }}</a></li>
                   </ol>
                 </nav>
               </div>
