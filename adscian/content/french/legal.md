@@ -53,6 +53,11 @@ Ci-après nommé ADSCIAN.
   Instrument : _Landsat 9-OLI_.
   Crédits : _NASA Earth Observatory images by Lauren Dauphin, using Landsat data
   from the U.S. Geological Survey. Story by Adam Voiland_.
+* Projets :
+  [Arctic Blast Brightened the West Florida Shelf](https://science.nasa.gov/earth/earth-observatory/arctic-blast-brightened-the-west-florida-shelf/).
+  Instrument : _Landsat 9-OLI-2_.
+  Crédits : _NASA Earth Observatory images by Michala Garrison, using Landsat data
+  from the U.S. Geological Survey. Story by Lindsey Doermann_.
 * Page d'erreur 404 :
   [Woodfjorden](https://science.nasa.gov/earth/earth-observatory/woodfjorden-5757/).
   Instrument : _Terra-Aster_.

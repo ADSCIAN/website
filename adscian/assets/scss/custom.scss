@@ -407,6 +407,46 @@ select#select-language- option {
   display: none;
 }
 
+.legal-content table {
+  border-radius: 0 6px 6px 0;
+  border-left: 3px solid #b2e4e2;
+}
+
+.legal-content table tbody {
+  background: #f0fbfa;
+}
+
+// Legal page sections
+
+.legal-content h3 {
+  border-left: 4px solid #06a6a1;
+  padding-left: 14px;
+  margin-top: 2.5rem;
+  color: #324a51;
+}
+
+.legal-content h3:first-of-type {
+  margin-top: 0;
+}
+
+.legal-content p:has(> strong:only-child) strong {
+  display: block;
+  font-size: 0.7rem;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #06a6a1;
+  font-weight: 600;
+  margin-top: 0.5rem;
+  font-variant: normal;
+}
+
+.legal-content p:has(> strong:only-child) + ul {
+  background: #f0fbfa;
+  border-left: 3px solid #b2e4e2;
+  border-radius: 0 6px 6px 0;
+  padding: 12px 16px 12px 32px;
+}
+
 // Project pages
 
 .project-tag-row {
