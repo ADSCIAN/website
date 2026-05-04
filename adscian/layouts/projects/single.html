@@ -46,7 +46,7 @@
         {{/* Partner / project logo — omitted if logo is blank */}}
         {{ with .Params.logo }}
         <div class="mt-5 text-center">
-          {{ partial "image.html" (dict "Src" . "Alt" (printf "%s logo" $.Title) "Size" "x80") }}
+          {{ partial "image.html" (dict "Src" . "Alt" (printf "%s logo" $.Title) "Size" (printf "x%s" ($.Params.logo_height | default "80"))) }}
         </div>
         {{ end }}
 
