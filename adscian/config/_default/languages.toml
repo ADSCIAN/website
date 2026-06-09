@@ -8,7 +8,9 @@ weight = 1
 # copyright
 copyright = ""
 
-
+[en.params.footer_info]
+registered_office = "Av. du Paepedelle 65, 1160 Brussels, Belgium"
+operating_offices = ["Rue de Dave 49, 5100 Jambes, Belgium"]
 
 ################################### French language #####################################
 [fr]
@@ -20,6 +22,10 @@ weight = 2
 # copyright
 copyright = ""
 
+[fr.params.footer_info]
+registered_office = "Av. du Paepedelle 65, 1160 Bruxelles, Belgique"
+operating_offices = ["Rue de Dave 49, 5100 Jambes, Belgique"]
+
 ################################### Dutch language #####################################
 [nl]
 title = "ADSCIAN"
@@ -29,3 +35,7 @@ contentDir = "content/dutch"
 weight = 3
 # copyright
 copyright = ""
+
+[nl.params.footer_info]
+registered_office = "Paepedellelaan 65, 1160 Brussel, België"
+operating_offices = ["Rue de Dave 49, 5100 Jambes, België"]

@@ -14,6 +14,10 @@
   translation: Juridisch
 - id: footer_address
   translation: Paepedellelaan 65, 1160, Brussel, België
+- id: footer_registered_office
+  translation: Maatschappelijke zetel
+- id: footer_operating_offices
+  translation: Exploitatieadres
 - id: projects
   translation: Projecten
 - id: our_contribution

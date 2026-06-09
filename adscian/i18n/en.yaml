@@ -119,6 +119,10 @@
   translation: Legal
 - id: footer_address
   translation: Paepedelle Ave 65, 1160, Brussels, Belgium
+- id: footer_registered_office
+  translation: Registered office
+- id: footer_operating_offices
+  translation: Operating address
 - id: projects
   translation: Projects
 - id: our_contribution

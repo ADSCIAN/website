@@ -16,8 +16,13 @@ logo_text = "ADSCIAN"
 name = "ADSCIAN"
 fullname = "AD Scientific Consulting & Environmental Systems Analytics"
 email = "contact@adscian.be"
-address = "Av. du Paepedelle 65, 1160, Bruxelles, Belgique"
 phone = "+ 32 492 10 49 68"
+# Registered office (legal address). Shown with a label in the footer.
+registered_office = "Av. du Paepedelle 65, 1160 Brussels, Belgium"
+# Operating offices — list all locations. Each shown on its own line.
+operating_offices = [
+  "Rue de Dave 49, 5100 Jambes, Belgium",
+]
 
 # contact form action
 contact_form_action = "" # contact form works with https://formspree.io

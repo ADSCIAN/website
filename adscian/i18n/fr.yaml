@@ -119,6 +119,10 @@
   translation: Mentions légales
 - id: footer_address
   translation: Av. du Paepedelle 65, 1160, Bruxelles, Belgique
+- id: footer_registered_office
+  translation: Siège social
+- id: footer_operating_offices
+  translation: Adresse d'exploitation
 - id: projects
   translation: Projets
 - id: our_contribution
