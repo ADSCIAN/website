@@ -24,24 +24,51 @@
         </div>
 
         {{/* Hero image — omitted if front matter image is blank */}}
+        {{/* Build Hugo image processing params from front matter */}}
+        {{ $sizeStr := "900x" }}
+        {{ $cmdStr := "Resize" }}
+        {{ with $.Params.image_height }}
+          {{ $sizeStr = printf "900x%v" . }}
+          {{ $cmdStr = "Fill" }}
+          {{ with $.Params.image_command }}
+            {{ $cmdStr = . | title }}
+          {{ end }}
+          {{ if or (eq $cmdStr "Fill") (eq $cmdStr "Crop") }}
+            {{ $anchorMap := dict "smart" "Smart" "center" "Center" "top" "Top" "bottom" "Bottom" "left" "Left" "right" "Right" "topleft" "TopLeft" "topright" "TopRight" "bottomleft" "BottomLeft" "bottomright" "BottomRight" }}
+            {{ $anchorKey := $.Params.image_anchor | default "smart" | lower }}
+            {{ $anchor := index $anchorMap $anchorKey | default ($anchorKey | title) }}
+            {{ $sizeStr = printf "%s %s" $sizeStr $anchor }}
+          {{ end }}
+        {{ end }}
         {{ with .Params.image }}
         <div class="mb-4">
-          {{ partial "image.html" (dict "Src" . "Alt" $.Title "Class" "w-100 rounded-3" "Size" "900x") }}
+          {{ partial "image.html" (dict "Src" . "Alt" $.Title "Class" "w-100 rounded-3" "Size" $sizeStr "Command" $cmdStr) }}
         </div>
         {{ end }}
 
-        {{/* ADSCIAN's role callout — omitted if our_role is blank */}}
+        {{/* ADSCIAN's role callout — above body by default; set our_role_position: below to move it after */}}
+        {{ if ne (.Params.our_role_position | lower) "below" }}
         {{ with .Params.our_role }}
         <div class="project-role-callout mb-4">
           <p class="project-role-callout__label">{{ i18n "our_contribution" }}</p>
           <div>{{ . | markdownify }}</div>
         </div>
         {{ end }}
+        {{ end }}
 
         {{/* Article body */}}
         <article class="project-content">
           {{ .Content }}
         </article>
+
+        {{ if eq (.Params.our_role_position | lower) "below" }}
+        {{ with .Params.our_role }}
+        <div class="project-role-callout mt-4 mb-4">
+          <p class="project-role-callout__label">{{ i18n "our_contribution" }}</p>
+          <div>{{ . | markdownify }}</div>
+        </div>
+        {{ end }}
+        {{ end }}
 
         {{/* Partner / project logo — omitted if logo is blank */}}
         {{ with .Params.logo }}
