@@ -23,7 +23,7 @@ weight = 300
 identifier = "projects"
 name = "Projets"
 url = "/fr/projects"
-weight = 350
+weight = 250
 
 [[main]]
 identifier = "contact"
