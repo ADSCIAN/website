@@ -7,7 +7,11 @@ period: "2026 – 2029"
 category: "Données & Recherche"
 our_role: "Nous pilotons la compilation d'une **base de données transnationale d'événements de coulées boueuses pluviales** dans les trois pays partenaires. Ce jeu de données harmonisé — intégrant des relevés de terrain, des archives historiques et des données spatiales sur les sols, l'occupation du sol et le relief — constitue le socle empirique des outils de modélisation et de gestion développés dans le cadre de MUDCAP."
 our_role_position: below
-website: "https://mudcap.nweurope.eu"
+actions:
+  - label: "Télécharger le poster du projet"
+    url: "pdfs/projects/MUDCAP_poster.pdf"
+  - label: "Visiter le site du projet"
+    url: "https://mudcap.nweurope.eu"
 draft: false
 image: "images/projects/muddy_flood.jpg"
 image_height: 400

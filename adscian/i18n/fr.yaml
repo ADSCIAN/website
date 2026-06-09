@@ -129,3 +129,5 @@
   translation: Notre contribution
 - id: visit_project_website
   translation: Visiter le site du projet
+- id: download_poster
+  translation: Télécharger le poster du projet

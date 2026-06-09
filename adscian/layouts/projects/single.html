@@ -77,12 +77,20 @@
         </div>
         {{ end }}
 
-        {{/* External project link — omitted if website is blank */}}
-        {{ with .Params.website }}
+        {{/* Action links — driven by the actions list in front matter */}}
+        {{ with .Params.actions }}
         <div class="mt-4 pt-3 border-top">
-          <a href="{{ . }}" class="project-external-link" target="_blank" rel="noopener noreferrer">
-            → {{ i18n "visit_project_website" }}
-          </a>
+          {{ range . }}
+          {{ $label := .label }}
+          {{ $url := .url }}
+          {{ if hasPrefix $url "http" }}
+          <div><a href="{{ $url }}" class="project-external-link" target="_blank" rel="noopener noreferrer">→ {{ $label }}</a></div>
+          {{ else }}
+          {{ with resources.Get $url }}
+          <div><a href="{{ .RelPermalink }}" class="project-external-link" download>→ {{ $label }}</a></div>
+          {{ end }}
+          {{ end }}
+          {{ end }}
         </div>
         {{ end }}
 

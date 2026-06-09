@@ -7,7 +7,11 @@ period: "2026 – 2029"
 category: "Data & Onderzoek"
 our_role: "Wij leiden de samenstelling van een **transnationale database van pluviale modderstroomevenementen** in de drie partnerlanden. Deze geharmoniseerde dataset — met veldgegevens, historische archieven en ruimtelijke gegevens over bodem, landgebruik en reliëf — vormt de empirische ruggengraat van de voorspellende modellering en beheersinstrumenten binnen MUDCAP."
 our_role_position: below
-website: "https://mudcap.nweurope.eu"
+actions:
+  - label: "Download de projectposter"
+    url: "pdfs/projects/MUDCAP_poster.pdf"
+  - label: "Bezoek de projectwebsite"
+    url: "https://mudcap.nweurope.eu"
 draft: false
 image: "images/projects/muddy_flood.jpg"
 image_height: 400

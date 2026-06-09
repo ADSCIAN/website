@@ -7,7 +7,11 @@ period: "2026 – 2029"
 category: "Data & Research"
 our_role: "We lead the compilation of a **transnational database of pluvial muddy flood events** across the three partner countries. This harmonised dataset — integrating field records, historical archives, and supporting spatial data on soils, land use, and terrain — forms the empirical backbone for MUDCAP's predictive modelling and management tools."
 our_role_position: below
-website: "https://mudcap.nweurope.eu"
+actions:
+  - label: "Download the project poster"
+    url: "pdfs/projects/MUDCAP_poster.pdf"
+  - label: "Visit the project website"
+    url: "https://mudcap.nweurope.eu"
 draft: false
 image: "images/projects/muddy_flood.jpg"
 image_height: 400

@@ -129,3 +129,5 @@
   translation: "ADSCIAN's contribution"
 - id: visit_project_website
   translation: Visit the project website
+- id: download_poster
+  translation: Download the project poster
