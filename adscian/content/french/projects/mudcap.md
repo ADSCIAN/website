@@ -16,8 +16,13 @@ draft: false
 image: "images/projects/muddy_flood.jpg"
 image_height: 400
 image_command: smart
-logo: "images/projects/mudcap_logo.png"
-logo_height: "150"
+logos:
+  - src: "images/projects/mudcap_logo.png"
+    alt: "Interreg Europe du Nord-Ouest — MUDCAP, cofinancé par l'Union européenne"
+    height: "150"
+  - src: "images/projects/soutien_v_fr.png"
+    alt: "Avec le soutien de la Wallonie — Service public de Wallonie"
+    height: "250"
 bg_image: "images/florida_oli2_20260203_lrg_compressed.jpg"
 bg_gradient_start: "rgba(25, 165, 82, 0.2)"
 bg_gradient_end: "rgba(0, 166, 191, 0.2)"

@@ -70,10 +70,28 @@
         {{ end }}
         {{ end }}
 
-        {{/* Partner / project logo — omitted if logo is blank */}}
-        {{ with .Params.logo }}
-        <div class="mt-5 text-center">
-          {{ partial "image.html" (dict "Src" . "Alt" (printf "%s logo" $.Title) "Size" (printf "x%s" ($.Params.logo_height | default "80"))) }}
+        {{/* Partner / funder logos — the `logos` list in front matter; the single `logo` param still works */}}
+        {{ $logos := slice }}
+        {{ range .Params.logos }}
+          {{ if reflect.IsMap . }}
+            {{ $logos = $logos | append . }}
+          {{ else }}
+            {{ $logos = $logos | append (dict "src" .) }}
+          {{ end }}
+        {{ end }}
+        {{ if not $logos }}
+          {{ with .Params.logo }}
+            {{ $logos = $logos | append (dict "src" .) }}
+          {{ end }}
+        {{ end }}
+        {{ with $logos }}
+        <div class="project-logo-row mt-5">
+          {{ range . }}
+          {{ $height := .height | default $.Params.logo_height | default "80" }}
+          <div class="project-logo">
+            {{ partial "image.html" (dict "Src" .src "Alt" (.alt | default (printf "%s logo" $.Title)) "Size" (printf "x%v" $height)) }}
+          </div>
+          {{ end }}
         </div>
         {{ end }}
 
